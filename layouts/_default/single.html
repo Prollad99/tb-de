@@ -1,6 +1,7 @@
 {{ define "main" }}
-<article>
-    <h1>{{ .Title }}</h1>
+<article class="container my-4">
+    <h1 class="display-4">{{ .Title }}</h1>
+    <img src="{{ .Params.image }}" class="img-fluid mb-4" alt="{{ .Title }}">
     <p>{{ .Content }}</p>
 </article>
 {{ end }}
