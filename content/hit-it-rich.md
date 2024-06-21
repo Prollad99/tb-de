@@ -1,6 +1,6 @@
 ---
 title: "Piggy Go Free Dice"
-description: "Get daily Piggy GO free dice, codes, and rolls. Discover exclusive Piggy GO gift codes and free dice to enhance your gameplay on our website."
+summary: "Get daily Piggy GO free dice, codes, and rolls. Discover exclusive Piggy GO gift codes and free dice to enhance your gameplay on our website."
 author: "Prollad"
 date: 2024-06-20
 categories: 
