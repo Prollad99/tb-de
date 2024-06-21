@@ -2,9 +2,9 @@
 <div class="container my-4">
     <h1>Categories</h1>
     <ul>
-        {{ range .Data.Terms }}
+        {{ range .Pages }}
         <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
         </li>
         {{ end }}
     </ul>
