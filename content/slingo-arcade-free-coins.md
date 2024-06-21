@@ -1,7 +1,7 @@
 ---
 title: "Slingo Arcade 250+ Free Coins & Chips (June 21, 2024)"
 description: "Collect Slingo Arcade 250+ Free Coins & Chips (June 21, 2024) now. Quickly use them all through the Pop Slot Freebies links. No tasks or registration!"
-image: "https://example.com/path/to/slingo-arcade-image.jpg"
+image: "https://popslotfreebies.com/wp-content/uploads/2024/06/be497a18a9b2afccd9aff1776dc1c7e8-jpg.webp"
 ---
 ## What are Hit it Rich Free Coins?
 
