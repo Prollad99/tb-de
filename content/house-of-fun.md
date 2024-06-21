@@ -3,8 +3,7 @@ title: "House of Fun Free Coins"
 summary: "Get daily Piggy GO free dice, codes, and rolls. Discover exclusive Piggy GO gift codes and free dice to enhance your gameplay on our website."
 author: "Prollad"
 date: 2024-06-20
-categories: 
-  - Free-Dice
+categories: ["free-coins"]
 tags: 
   - piggy go free dice
   - piggy go codes
