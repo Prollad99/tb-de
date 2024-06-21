@@ -1,3 +1,6 @@
 baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "My Hugo Site"
+
+[params]
+  mainSections = ["free-dice"]
