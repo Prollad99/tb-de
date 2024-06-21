@@ -12,7 +12,7 @@ tags:
   - piggy go gift codes
   - free dice piggy go
   - piggy go free dice codes
-image: https://popslotfreebies.com/wp-content/uploads/2024/06/a069129ae06f96daac7dd584e41ef8a3.jpg
+image: https://cdn.pixabay.com/photo/2023/03/08/23/21/books-7838952_1280.jpg
 ---
 
 ## What are Hit it Rich Free Coins?
