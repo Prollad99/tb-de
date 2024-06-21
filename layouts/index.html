@@ -1,6 +1,20 @@
 {{ define "main" }}
-<div class="jumbotron">
-    <h1 class="display-4">{{ .Title }}</h1>
-    <p class="lead">{{ .Content }}</p>
+<div class="container">
+    <h1 class="my-4">{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+    <div class="row">
+        {{ range .Pages }}
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{ .Title }}</h5>
+                    <p class="card-text">{{ .Summary }}</p>
+                    <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
 </div>
 {{ end }}
