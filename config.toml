@@ -4,3 +4,5 @@ title = "My Hugo Site"
 
 [params]
   mainSections = ["free-dice"]
+[taxonomies]
+  category = "categories"
