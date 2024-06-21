@@ -1,7 +1,7 @@
 ---
 title: "Bingo Bash 1,000+ Free Coins & Chips (June 21, 2024)"
 description: "Collect Bingo Bash 1,000+ Free Coins & Chips (June 21, 2024). Quickly use them all through the Pop Slot Freebies links. No tasks or registration!"
-image: "https://example.com/path/to/bingo-bash-image.jpg"
+image: "https://popslotfreebies.com/wp-content/uploads/2024/06/a069129ae06f96daac7dd584e41ef8a3.jpg"
 ---
 ## What are Hit it Rich Free Coins?
 
