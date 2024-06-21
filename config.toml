@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "My Hugo Site"
 
 [params]
-  mainSections = ["free-dice"]
+  mainSections = ["free-dice", "free-coins"]
+
 [taxonomies]
   category = "categories"
