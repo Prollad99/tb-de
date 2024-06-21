@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to My Hugo Site!</h1>
+    <p class="lead">Get daily freebies like pop slots chips, spins, and more at Pop Slots Freebies!</p>
+    <hr class="my-4">
+    <p>#1 source for pop slots freebies! No need for complex registrations.</p>
+</div>
+<div class="row">
+    {{ range .Pages }}
+    <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+            <img src="/images/thumbnail.png" class="card-img-top" alt="Game">
+            <div class="card-body">
+                <h5 class="card-title">{{ .Title }}</h5>
+                <p class="card-text">{{ .Summary }}</p>
+                <a href="{{ .Permalink }}" class="btn btn-primary">Read more</a>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
