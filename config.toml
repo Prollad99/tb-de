@@ -8,3 +8,6 @@ title = "My Hugo Site"
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[frontmatter]
+lastmod = ["git", "fileModTime"]
