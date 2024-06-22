@@ -37,16 +37,19 @@
             </div>
 
             <div class="mt-4">
-                <h4>Other Games in Free-dice</h4>
+                <h4>Other Games in {{ delimit .Params.categories " / " }}</h4>
                 <ul>
-                    {{ range where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
-                        {{ if in .Params.categories "free-dice" }}
-                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ $currentPage := . }}
+                    {{ range .Params.categories }}
+                        {{ $category := . }}
+                        {{ range where .Site.RegularPages "Params.categories" $category }}
+                            {{ if ne .Permalink $currentPage.Permalink }}
+                            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                            {{ end }}
                         {{ end }}
                     {{ end }}
                 </ul>
             </div>
-
         </div>
     </div>
 </div>
