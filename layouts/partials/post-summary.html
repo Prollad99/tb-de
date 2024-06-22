@@ -1,16 +1,18 @@
-{{ range .Site.RegularPages }}
-    {{ if eq .Type "post" }}
-        <div class="post-summary">
-            <div class="post-summary-image">
-                <a href="{{ .Permalink }}">
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
-                    <div class="image-text">Claim Now</div>
-                </a>
+{{ define "main" }}
+    {{ range .Site.RegularPages }}
+        {{ if eq .Type "post" }}
+            <div class="post-summary">
+                <div class="post-summary-image">
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                        <div class="image-text">Claim Now</div>
+                    </a>
+                </div>
+                <div class="post-summary-content">
+                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                    <p>{{ .Summary }}</p>
+                </div>
             </div>
-            <div class="post-summary-content">
-                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                <p>{{ .Summary }}</p>
-            </div>
-        </div>
+        {{ end }}
     {{ end }}
 {{ end }}
