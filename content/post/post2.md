@@ -11,7 +11,7 @@ tags:
   - piggy go gift codes
   - free dice piggy go
   - piggy go free dice codes
-image: https://cdn.pixabay.com/photo/2023/03/08/23/21/books-7838952_1280.jpg
+image: https://i.pinimg.com/736x/92/c2/4a/92c24a041cd06e2f61426b2795f7ff22.jpg
 ---
 
 ## What are Hit it Rich Free Coins?
