@@ -35,6 +35,18 @@
                     <i class="bi bi-whatsapp"></i> Share on WhatsApp
                 </a>
             </div>
+
+            <div class="mt-4">
+                <h4>Other Games in Free-dice</h4>
+                <ul>
+                    {{ range where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+                        {{ if in .Params.categories "free-dice" }}
+                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+
         </div>
     </div>
 </div>
