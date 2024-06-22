@@ -4,6 +4,18 @@
         <div class="card-body">
             <h1 class="card-title">{{ .Title }}</h1>
             <p class="card-text">{{ .Content }}</p>
+            <div class="mt-4">
+                {{ if .Params.tags }}
+                <h5>Tags:</h5>
+                <ul class="list-inline">
+                    {{ range .Params.tags }}
+                    <li class="list-inline-item">
+                        <a href="/tags/{{ . | urlize }}" class="badge bg-primary">{{ . }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
         </div>
     </div>
 </div>
