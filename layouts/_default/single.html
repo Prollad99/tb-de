@@ -18,7 +18,7 @@
                 <ul class="list-inline">
                     {{ range .Params.tags }}
                     <li class="list-inline-item">
-                        <a href="/tags/{{ . | urlize }}" class="badge bg-secondary text-white">{{ . }}</a>
+                        <a href="/tags/{{ . | urlize }}" class="badge bg-secondary text-white custom-tag">{{ . }}</a>
                     </li>
                     {{ end }}
                 </ul>
@@ -26,19 +26,19 @@
             </div>
 
             <div class="mt-4">
-                <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="btn btn-primary">
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="btn btn-primary custom-btn-spacing">
                     <i class="bi bi-facebook"></i> Share on Facebook
                 </a>
-                <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" class="btn btn-info">
+                <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" class="btn btn-info custom-btn-spacing">
                     <i class="bi bi-twitter"></i> Tweet
                 </a>
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" class="btn btn-primary">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" class="btn btn-primary custom-btn-spacing">
                     <i class="bi bi-linkedin"></i> Share on LinkedIn
                 </a>
-                <a href="https://www.reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" class="btn btn-danger">
+                <a href="https://www.reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" class="btn btn-danger custom-btn-spacing">
                     <i class="bi bi-reddit"></i> Share on Reddit
                 </a>
-                <a href="https://api.whatsapp.com/send?text={{ .Permalink }}" class="btn btn-success">
+                <a href="https://api.whatsapp.com/send?text={{ .Permalink }}" class="btn btn-success custom-btn-spacing">
                     <i class="bi bi-whatsapp"></i> Share on WhatsApp
                 </a>
             </div>
