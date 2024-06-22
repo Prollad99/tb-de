@@ -4,16 +4,18 @@
     <p>{{ .Content }}</p>
     <div class="row">
         {{ range .Pages }}
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
-                <div class="card-body">
-                    <h5 class="card-title">{{ .Title }}</h5>
-                    <p class="card-text">{{ .Params.summary }}</p>
-                    <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More</a>
+            {{ if not (or (eq .Params.excludeFromHomePage true) (eq .Type "page")) }}
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ .Title }}</h5>
+                        <p class="card-text">{{ .Params.summary }}</p>
+                        <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More</a>
+                    </div>
                 </div>
             </div>
-        </div>
+            {{ end }}
         {{ end }}
     </div>
 </div>
