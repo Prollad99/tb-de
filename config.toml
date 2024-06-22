@@ -9,8 +9,11 @@ title = "My Hugo Site"
   category = "categories"
   tag = "tags"
 
+[build]
+  useResourceCacheWhen = "always"
+
 [frontmatter]
-lastmod = ["git", "fileModTime"]
+  lastmod = ["git", "lastmod", "date"]
 
 [permalinks]
 post = "/:slug/"
