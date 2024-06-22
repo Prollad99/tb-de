@@ -1,62 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap);
-*{scroll-behavior:smooth;}
-body{
-font-family: open sans,roboto, sans-serif;
-line-height:1.625;
-  font-size: 15px;
-  color: #444;
-  margin: 0;
-  background-color: #efe9e9;
-}
-
 .posts-container {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center; /* Center align posts in container */
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
     }
 
     .post-summary {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         border: 1px solid #ccc;
-        padding: 10px;
-        margin: 10px 0;
         border-radius: 8px;
         background-color: #fff;
         width: 100%;
         box-sizing: border-box;
-        max-width: 300px; /* Adjust max-width as per your design */
+        max-width: 400px; /* Adjust max-width as per your design */
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: Adding a subtle shadow */
     }
 
     .post-summary-image {
-        position: relative;
         margin-bottom: 10px;
+        flex-shrink: 0;
     }
 
     .post-summary-image img {
-        width: 80px; /* Maintain original image size */
-        height: 80px;
+        width: 100%; /* Ensure image fills its container */
+        max-width: 100%; /* Ensure image doesn't exceed its original size */
+        height: auto; /* Maintain aspect ratio */
         border-radius: 8px;
     }
 
-    .post-summary-image .image-text {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-        font-size: 0.9em;
-        font-weight: bold;
-        background-color: rgba(0, 0, 0, 0.5);
-        padding: 5px 10px;
-        border-radius: 5px;
-        text-align: center;
-    }
-
     .post-summary-content {
-        text-align: center;
+        text-align: left;
+        width: 100%;
     }
 
     .post-summary-content h2 {
@@ -73,12 +51,11 @@ line-height:1.625;
         .post-summary {
             flex-direction: row;
             align-items: flex-start;
-            max-width: 600px; /* Adjust max-width for desktop */
         }
 
         .post-summary-image {
             margin-right: 15px;
             margin-bottom: 0;
-            flex-shrink: 0;
+            width: 80px; /* Adjust width as per your design */
         }
     }
