@@ -5,13 +5,19 @@
     <div class="row">
         {{ range .Site.RegularPages }}
             {{ if eq .Type "post" }}
-            <div class="col-md-4">
-                <div class="card mb-4">
-                    <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ .Title }}</h5>
-                        <p class="card-text">{{ .Params.summary }}</p>
-                        <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More</a>
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="card-img" src="{{ .Params.image }}" alt="{{ .Title }}">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ .Title }}</h5>
+                                <p class="card-text">{{ .Params.summary }}</p>
+                                <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
