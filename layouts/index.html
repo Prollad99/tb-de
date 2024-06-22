@@ -1,9 +1,17 @@
 {{ define "main" }}
-<div class="homepage-posts">
-    {{ range .Site.RegularPages }}
-        {{ if eq .Type "post" }}
-            {{ partial "post-summary.html" . }}
-        {{ end }}
-    {{ end }}
+<h1>{{ .Site.Title }}</h1>
+
+<p>Welcome to POP Slots freebies! Get daily freebies like pop slots chips, spins, and more at Pop Slots Freebies! Claim now for exciting gameplay and big wins! #1 source for pop slots freebies! - no need for complex registrations.</p>
+
+<h2>Today Most Popular Games Freebies</h2>
+
+<div class="games-list">
+  {{ range first 5 (where .Site.RegularPages "Type" "games") }}
+    <div class="game-item">
+      <img src="{{ .Params.image }}" alt="{{ .Title }}">
+      <h3>{{ .Title }}</h3>
+      <p>Collect {{ .Params.freeCoins }} Free Coins & Chips ({{ .Date.Format "January 2, 2006" }}) now, Quickly use them all through the Pop Slot Freebies links. No tasks or registration!</p>
+    </div>
+  {{ end }}
 </div>
 {{ end }}
