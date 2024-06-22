@@ -1,73 +1,74 @@
 {{ define "main" }}
-    <div class="card mb-3">
-        <div class="card-body">
-            <h1 class="card-title">{{ .Title }}</h1>
+<div class="card mb-3">
+    <div class="card-body">
+        <h1 class="card-title">{{ .Title }}</h1>
 
-            <p class="card-subtitle text-muted">
-                {{ with .Params.author }}By {{ . }}{{ end }}
-                <br>
-                Last modified: {{ .Lastmod.Format "Jan 2, 2006" }}
-            </p>
+        <p class="card-subtitle text-muted">
+            {{ with .Params.author }}By {{ . }}{{ end }}
+            <br>
+            Last modified: {{ .Lastmod.Format "Jan 2, 2006" }}
+        </p>
 
-            <p class="card-text">{{ .Content }}</p>
+        <p class="card-text">{{ .Content }}</p>
 
-            <div class="mt-4">
-                {{ if .Params.tags }}
-                <h5>Tags:</h5>
-                <ul class="list-inline">
-                    {{ range .Params.tags }}
-                    <li class="list-inline-item">
-                        <a href="/tags/{{ . | urlize }}" class="badge bg-secondary text-white custom-tag">{{ . }}</a>
-                    </li>
-                    {{ end }}
-                </ul>
+        <div class="mt-4">
+            {{ if .Params.tags }}
+            <h5>Tags:</h5>
+            <ul class="list-inline">
+                {{ range .Params.tags }}
+                <li class="list-inline-item">
+                    <a href="/tags/{{ . | urlize }}" class="badge bg-secondary text-white custom-tag">{{ . }}</a>
+                </li>
                 {{ end }}
-            </div>
+            </ul>
+            {{ end }}
+        </div>
 
-            <div class="mt-4">
-    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="btn btn-primary mb-2 me-2">
-        <i class="bi bi-facebook"></i> Share on Facebook
-    </a>
-    <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" class="btn btn-info mb-2 me-2">
-        <i class="bi bi-twitter"></i> Tweet
-    </a>
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" class="btn btn-primary mb-2 me-2">
-        <i class="bi bi-linkedin"></i> Share on LinkedIn
-    </a>
-    <a href="https://www.reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" class="btn btn-danger mb-2 me-2">        <i class="bi bi-reddit"></i> Share on Reddit
-    </a>
-    <a href="https://api.whatsapp.com/send?text={{ .Permalink }}" class="btn btn-success mb-2 me-2">
-        <i class="bi bi-whatsapp"></i> Share on WhatsApp
-    </a>
-</div>
+        <div class="mt-4">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" class="btn btn-primary mb-2 me-2">
+                <i class="bi bi-facebook"></i> Share on Facebook
+            </a>
+            <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" class="btn btn-info mb-2 me-2">
+                <i class="bi bi-twitter"></i> Tweet
+            </a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}" class="btn btn-primary mb-2 me-2">
+                <i class="bi bi-linkedin"></i> Share on LinkedIn
+            </a>
+            <a href="https://www.reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" class="btn btn-danger mb-2 me-2">
+                <i class="bi bi-reddit"></i> Share on Reddit
+            </a>
+            <a href="https://api.whatsapp.com/send?text={{ .Permalink }}" class="btn btn-success mb-2 me-2">
+                <i class="bi bi-whatsapp"></i> Share on WhatsApp
+            </a>
+        </div>
 
-            <div class="mt-4">
-                {{ with .Params.categories }}
-                <h4>Other Games in {{ delimit . " / " }}</h4>
-                <ul>
-                    {{ $currentCategories := . }}
-                    {{ range $.Site.RegularPages }}
-                        {{ $post := . }}
-                        {{ if intersect $post.Params.categories $currentCategories }}
-                            {{ if ne $post.Permalink $.Permalink }}
-                            <li><a href="{{ $post.Permalink }}">{{ $post.Title }}</a></li>
-                            {{ end }}
+        <div class="mt-4">
+            {{ with .Params.categories }}
+            <h4>Other Games in {{ delimit . " / " }}</h4>
+            <ul>
+                {{ $currentCategories := . }}
+                {{ range $.Site.RegularPages }}
+                    {{ $post := . }}
+                    {{ if intersect $post.Params.categories $currentCategories }}
+                        {{ if ne $post.Permalink $.Permalink }}
+                        <li><a href="{{ $post.Permalink }}">{{ $post.Title }}</a></li>
                         {{ end }}
                     {{ end }}
-                </ul>
                 {{ end }}
-            </div>
+            </ul>
+            {{ end }}
+        </div>
 
-            <div class="mt-4">
-                <h4>All Games</h4>
-                <ul>
-                    {{ range $.Site.RegularPages }}
-                        {{ if ne .Type "page" }}
-                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-                        {{ end }}
+        <div class="mt-4">
+            <h4>All Games</h4>
+            <ul>
+                {{ range $.Site.RegularPages }}
+                    {{ if ne .Type "page" }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
                     {{ end }}
-                </ul>
-            </div>
+                {{ end }}
+            </ul>
         </div>
     </div>
+</div>
 {{ end }}
