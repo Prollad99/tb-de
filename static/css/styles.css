@@ -27,12 +27,20 @@ line-height:1.625;
 }
 
 .card-text {
-    flex-grow: 1;
+    margin-bottom: auto;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.card-footer {
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
 }
 
 .btn-primary {
