@@ -1,6 +1,6 @@
 ---
 title: "First Post"
-date: 2023-06-22
+date: 2024-06-22
 draft: false
 type: "post"
 slug: "my-post-url"
