@@ -1,29 +1,7 @@
 {{ define "main" }}
-<div class="container">
-    <h1 class="my-4">{{ .Title }}</h1>
-    <div class="row">
-        {{ range .Site.RegularPages }}
-            {{ if eq .Type "post" }}
-            <div class="col-md-6 mb-3">
-                <div class="card h-100">
-                    <div class="row no-gutters">
-                        <div class="col-4">
-                            <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
-                        </div>
-                        <div class="col-8 d-flex flex-column">
-                            <div class="card-body flex-grow-1">
-                                <h5 class="card-title">{{ .Title }}</h5>
-                                <p class="card-text">{{ .Params.summary }}</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
-        {{ end }}
-    </div>
+<div class="homepage-posts">
+    {{ range .Pages }}
+        {{ partial "post-summary.html" . }}
+    {{ end }}
 </div>
 {{ end }}
