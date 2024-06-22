@@ -19,6 +19,7 @@
     margin: 10px 0;
     border-radius: 8px;
     background-color: #fff;
+    align-items: stretch;
 }
 .post-summary-image {
     margin-right: 15px;
@@ -30,6 +31,9 @@
 }
 .post-summary-content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .post-summary-content h2 {
     margin: 0;
@@ -37,5 +41,6 @@
 }
 .post-summary-content p {
     margin: 10px 0 0 0;
+    flex-grow: 1;
 }
 </style>
