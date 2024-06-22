@@ -4,7 +4,7 @@
     <p>{{ .Content }}</p>
     <div class="row">
         {{ range .Pages }}
-            {{ if not (or (eq .Params.excludeFromHomePage true) (eq .Type "page")) }}
+            {{ if and (ne .Type "page") (not (eq .Params.excludeFromHomePage true)) }}
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
