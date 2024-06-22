@@ -52,6 +52,15 @@
                 </ul>
                 {{ end }}
             </div>
+
+            <div class="mt-4">
+                <h4>All Games</h4>
+                <ul>
+                    {{ range $.Site.RegularPages }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
         </div>
     </div>
 </div>
