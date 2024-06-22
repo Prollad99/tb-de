@@ -3,8 +3,8 @@
     <h1 class="my-4">{{ .Title }}</h1>
     <p>{{ .Content }}</p>
     <div class="row">
-        {{ range .Pages }}
-            {{ if and (ne .Type "page") (not (eq .Params.excludeFromHomePage true)) }}
+        {{ range .Site.RegularPages }}
+            {{ if eq .Type "post" }}
             <div class="col-md-4">
                 <div class="card mb-4">
                     <img class="card-img-top" src="{{ .Params.image }}" alt="{{ .Title }}">
