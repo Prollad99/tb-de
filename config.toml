@@ -1,9 +1,6 @@
 baseURL = "https://stalwart-pastelito-a61597.netlify.app"
 languageCode = "en-us"
-title = "My Hugo Site"
-
-[params]
-  mainSections = ["free-dice", "free-coin"]
+title = "Tages Bonus"
 
 [taxonomies]
   category = "categories"
@@ -17,5 +14,4 @@ title = "My Hugo Site"
 
 [permalinks]
 post = "/:slug/"
-free-coins = "/:slug/"
 
