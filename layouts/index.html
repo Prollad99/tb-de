@@ -10,11 +10,13 @@
                         <div class="col-4">
                             <img class="img-fluid" src="{{ .Params.image }}" alt="{{ .Title }}">
                         </div>
-                        <div class="col-8">
-                            <div class="card-body d-flex flex-column">
+                        <div class="col-8 d-flex flex-column">
+                            <div class="card-body flex-grow-1">
                                 <h5 class="card-title">{{ .Title }}</h5>
                                 <p class="card-text">{{ .Params.summary }}</p>
-                                <a href="{{ .RelPermalink }}" class="btn btn-primary mt-auto">Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <a href="{{ .RelPermalink }}" class="btn btn-primary">Read More</a>
                             </div>
                         </div>
                     </div>
