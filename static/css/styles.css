@@ -10,14 +10,9 @@ line-height:1.625;
 }
 
 .card {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.card-img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
 }
 
 .card-body {
@@ -34,16 +29,18 @@ line-height:1.625;
     margin-bottom: 10px;
 }
 
-.card .btn {
-    margin-top: 10px;
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-.row.no-gutters {
+.row.g-0 {
     margin-right: 0;
     margin-left: 0;
 }
 
-.row.no-gutters > [class*='col-'] {
+.row.g-0 > [class*='col-'] {
     padding-right: 0;
     padding-left: 0;
 }
