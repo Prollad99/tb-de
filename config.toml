@@ -11,3 +11,7 @@ title = "My Hugo Site"
 
 [frontmatter]
 lastmod = ["git", "fileModTime"]
+
+[permalinks]
+post = "/:slug/"
+
