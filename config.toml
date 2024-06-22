@@ -1,5 +1,5 @@
 baseURL = "https://stalwart-pastelito-a61597.netlify.app"
-languageCode = "en-us"
+languageCode = "de"
 title = "Tages Bonus"
 
 [taxonomies]
