@@ -1,16 +1,12 @@
-<div class="card mb-3" style="max-width: 600px;">
-    <div class="row no-gutters">
-        <div class="col-md-4 post-summary-image">
-            <a href="{{ .Permalink }}">
-                <img src="{{ .Params.image }}" class="card-img" alt="{{ .Title }}" style="border-radius: 8px;">
-                <div class="image-text">Claim Now</div>
-            </a>
-        </div>
-        <div class="col-md-8">
-            <div class="card-body">
-                <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-                <p class="card-text">{{ .Summary }}</p>
-            </div>
-        </div>
+<div class="post-summary">
+    <div class="post-summary-image">
+        <a href="{{ .Permalink }}">
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+            <div class="image-text">Claim Now</div>
+        </a>
+    </div>
+    <div class="post-summary-content">
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p>{{ .Summary }}</p>
     </div>
 </div>
