@@ -14,6 +14,7 @@
 <style>
 .post-summary {
     display: flex;
+    align-items: center; /* Center items vertically */
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px 0;
@@ -21,6 +22,7 @@
     background-color: #fff;
 }
 .post-summary-image {
+    flex: 0 0 auto; /* Do not grow, do not shrink */
     margin-right: 15px;
 }
 .post-summary-image img {
@@ -29,16 +31,17 @@
     border-radius: 50%;
 }
 .post-summary-content {
-    flex: 1;
+    flex: 1; /* Allow this to grow and fill remaining space */
     display: flex;
     flex-direction: column;
+    justify-content: center; /* Center text vertically */
 }
 .post-summary-content h2 {
     margin: 0;
     font-size: 1.2em;
+    color: blue; /* Adjust color as per your need */
 }
 .post-summary-content p {
     margin: 10px 0 0 0;
-    flex-grow: 1;
 }
 </style>
