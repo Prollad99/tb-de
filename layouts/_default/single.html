@@ -41,7 +41,7 @@
                 <h4>Other Games in {{ delimit . " / " }}</h4>
                 <ul>
                     {{ $currentCategories := . }}
-                    {{ range .Site.RegularPages }}
+                    {{ range $.Site.RegularPages }}
                         {{ $post := . }}
                         {{ if intersect $post.Params.categories $currentCategories }}
                             {{ if ne $post.Permalink $.Permalink }}
