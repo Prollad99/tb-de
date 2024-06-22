@@ -14,4 +14,5 @@ lastmod = ["git", "fileModTime"]
 
 [permalinks]
 post = "/:slug/"
+free-coins = "/:slug/"
 
