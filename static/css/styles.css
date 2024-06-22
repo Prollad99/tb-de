@@ -17,6 +17,8 @@ line-height:1.625;
 
 .card-body {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-title {
@@ -30,17 +32,17 @@ line-height:1.625;
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
-.row.g-0 {
+.row.no-gutters {
     margin-right: 0;
     margin-left: 0;
 }
 
-.row.g-0 > [class*='col-'] {
+.row.no-gutters > [class*='col-'] {
     padding-right: 0;
     padding-left: 0;
 }
