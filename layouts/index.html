@@ -1,7 +1,9 @@
 {{ define "main" }}
 <div class="homepage-posts">
-    {{ range .Pages }}
-        {{ partial "post-summary.html" . }}
+    {{ range .Site.RegularPages }}
+        {{ if eq .Type "post" }}
+            {{ partial "post-summary.html" . }}
+        {{ end }}
     {{ end }}
 </div>
 {{ end }}
