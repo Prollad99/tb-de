@@ -43,23 +43,6 @@
         </div>
 
         <div class="mt-4">
-            {{ with .Params.categories }}
-            <h4>Other Games in {{ delimit . " / " }}</h4>
-            <ul>
-                {{ $currentCategories := . }}
-                {{ range $.Site.RegularPages }}
-                    {{ $post := . }}
-                    {{ if intersect $post.Params.categories $currentCategories }}
-                        {{ if ne $post.Permalink $.Permalink }}
-                        <li><a href="{{ $post.Permalink }}">{{ $post.Title }}</a></li>
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-            </ul>
-            {{ end }}
-        </div>
-
-        <div class="mt-4">
             <h4>All Games</h4>
             <ul>
                 {{ range $.Site.RegularPages }}
