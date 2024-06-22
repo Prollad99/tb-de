@@ -1,53 +1,16 @@
-<!-- layouts/partials/post-summary.html -->
-<div class="post-summary">
-    <div class="post-summary-image">
-        <a href="{{ .Permalink }}">
-            <img src="{{ .Params.image }}" alt="{{ .Title }}">
-        </a>
-    </div>
-    <div class="post-summary-content">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Summary }}</p>
-    </div>
-</div>
-
-<style>
-.post-summary {
-    display: flex;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 8px;
-    background-color: #fff;
-}
-
-.post-summary-image {
-    margin-right: 15px;
-}
-
-.post-summary-image img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.post-summary-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Distribute space between and around the content */
-}
-
-.post-summary-content h2 {
-    margin: 0;
-    font-size: 1.2em;
-    color: blue; /* Adjust color as needed */
-}
-
-.post-summary-content p {
-    margin: 0; /* Remove default margins */
-    flex-grow: 1; /* Ensure the paragraph grows to fill the space */
-    display: flex;
-    align-items: center; /* Vertically center the text */
-}
-</style>
+{{ range .Site.RegularPages }}
+    {{ if eq .Type "post" }}
+        <div class="post-summary">
+            <div class="post-summary-image">
+                <a href="{{ .Permalink }}">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                    <div class="image-text">Claim Now</div>
+                </a>
+            </div>
+            <div class="post-summary-content">
+                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <p>{{ .Summary }}</p>
+            </div>
+        </div>
+    {{ end }}
+{{ end }}
