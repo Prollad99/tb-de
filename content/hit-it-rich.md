@@ -20,6 +20,8 @@ Hit it Rich Free Coins are promotional rewards designed to enhance players' expe
 
 Free coins in Hit it Rich are virtual currency that players can obtain without spending real money. These coins are utilized to play various slot machines and engage in other activities within the game. They can be earned as daily bonuses or as rewards for completing specific challenges or achievements. Acquiring free coins and spins enables players to continue playing even when their initial balance is low.
 
+{{< reward >}}
+
 ## How to Redeem Hit it Rich Free Coins?
 
 To claim free coins in Hit it Rich, follow these steps:
