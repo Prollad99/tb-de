@@ -2,16 +2,6 @@ baseURL = "https://stalwart-pastelito-a61597.netlify.app"
 languageCode = "de"
 title = "Tages Bonus"
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-
-[build]
-  useResourceCacheWhen = "always"
-
-[frontmatter]
-  lastmod = ["git", "lastmod", "date"]
-
 [permalinks]
 post = "/:slug/"
 
