@@ -13,8 +13,8 @@
                 {{ end }}
                 {{ if .Params.tags }}
                     <li class="breadcrumb-item"><a href="{{ "/tags/" | relLangURL }}">Tags</a></li>
-                    {{ range $index, $tag := .Params.tags }}
-                        <li class="breadcrumb-item active" aria-current="page">{{ $tag }}</li>
+                    {{ range .Params.tags }}
+                        <li class="breadcrumb-item active" aria-current="page">{{ . }}</li>
                     {{ end }}
                 {{ end }}
             </ol>
