@@ -19,9 +19,13 @@
                     <li class="breadcrumb-item"><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
                 {{ end }}
                 <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-            {{ else if .IsTaxonomyTerm }}
-                <li class="breadcrumb-item"><a href="/{{ .Plural }}">{{ .Plural | title }}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+            {{ else if .IsNode }}
+                {{ if .Kind "taxonomyTerm" }}
+                    <li class="breadcrumb-item"><a href="/{{ .Plural }}">{{ .Plural | title }}</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                {{ else if .Kind "taxonomy" }}
+                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                {{ end }}
             {{ end }}
         </ol>
     </nav>
