@@ -1,10 +1,4 @@
-{{ define "main" }}
-<div class="container">
-    <h1 class="my-4">{{ .Title }}</h1>
-    <div class="row">
-        {{ range .Site.RegularPages }}
-            {{ if eq .Type "post" }}
-            <div class="col-md-6 mb-3">
+ <div class="col-md-6 mb-3">
                 <div class="card h-100">
                     <div class="row no-gutters">
                         <div class="col-4">
@@ -22,8 +16,3 @@
                     </div>
                 </div>
             </div>
-            {{ end }}
-        {{ end }}
-    </div>
-</div>
-{{ end }}
