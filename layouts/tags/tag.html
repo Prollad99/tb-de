@@ -1,8 +1,8 @@
 <!-- layouts/tags/tags.html -->
-{{ if .Params.tags }}
+{{ define "main" }}
   <div class="container mt-4">
     <div class="row">
-      {{ range .Params.tags }}
+      {{ range .Pages }}
       <div class="col-md-6 mb-4">
         <div class="card">
           <div class="row no-gutters">
