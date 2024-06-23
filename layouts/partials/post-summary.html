@@ -2,17 +2,12 @@
     .post-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between; /* Added to distribute space between items */
+        justify-content: space-between; /* Distribute space between items */
     }
 
     .post-summary {
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin: 5px 0;
-        border-radius: 8px;
-        background-color: #fff;
-        overflow: hidden;
-        flex: 1 1 100%;
+        width: calc(50% - 10px); /* Calculate width for two items with spacing */
+        margin-bottom: 20px; /* Space between rows */
         box-sizing: border-box;
     }
 
@@ -50,17 +45,6 @@
     .post-summary-content p {
         margin: 0;
         font-size: 1em;
-    }
-
-    @media {
-        .post-summary {
-            flex: 1 1 calc(50% - 10px);
-            margin: 10px; /* Changed to margin for uniform spacing */
-        }
-
-        .post-summary:nth-child(2n) {
-            margin-right: 10px; /* Adjust for spacing between pairs */
-        }
     }
 </style>
 
