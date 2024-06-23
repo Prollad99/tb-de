@@ -1,8 +1,6 @@
 {{ define "main" }}
 <div class="container mt-4">
-    <h2>Tag: #{{ .Params.name }}</h2>
-    <!-- Debugging output -->
-    <p>Debug: Params.name is '{{ .Params.name }}'</p>
+    <h2 class="mb-2">Tag: #{{ .Title }}</h2>
     <div class="row">
         {{ range .Pages }}
             <div class="col-md-6 mb-4">
