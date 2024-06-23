@@ -12,10 +12,8 @@
                     <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
                 {{ end }}
                 {{ if .Params.tags }}
+                    <li class="breadcrumb-item"><a href="{{ "/tags/" | relLangURL }}">Tags</a></li>
                     {{ range $index, $tag := .Params.tags }}
-                        {{ if eq $index 0 }}
-                            <li class="breadcrumb-item"><a href="{{ "/tags/" | relLangURL }}">{{ "Tags" }}</a></li>
-                        {{ end }}
                         <li class="breadcrumb-item active" aria-current="page">{{ $tag }}</li>
                     {{ end }}
                 {{ end }}
