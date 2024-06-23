@@ -2,6 +2,9 @@ baseURL = "https://stalwart-pastelito-a61597.netlify.app"
 languageCode = "de"
 title = "Tages Bonus"
 
+[taxonomies]
+  tag = "tags"
+
 [permalinks]
 post = "/:slug/"
 
