@@ -1,9 +1,20 @@
 {{ define "main" }}
-<div class="homepage-posts">
-    {{ range .Site.RegularPages }}
-        {{ if eq .Type "post" }}
-            {{ partial "post-summary.html" . }}
+<div class="container mt-4">
+    <div class="row">
+        {{ range .Site.RegularPages }}
+            {{ if eq .Type "post" }}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ .Title }}</h5>
+                        <p class="card-text">{{ .Summary }}</p>
+                        <a href="{{ .RelPermalink }}" class="btn btn-primary btn-block">Claim Now</a>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
         {{ end }}
-    {{ end }}
+    </div>
 </div>
 {{ end }}
