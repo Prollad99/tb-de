@@ -61,7 +61,7 @@ line-height:1.625;
         font-size: 1em;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
         .post-summary {
             flex: 1 1 calc(50% - 10px);
             margin-right: 20px;
