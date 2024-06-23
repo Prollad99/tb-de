@@ -3,13 +3,7 @@
     <div class="card-body">
         <h1 class="card-title">{{ .Title }}</h1>
 
-        <p class="card-subtitle text-muted">
-            {{ with .Params.author }}By {{ . }}{{ end }}
-            <br>
-            Last modified: {{ .Lastmod.Format "Jan 2, 2006" }}
-        </p>
-
-        <p class="card-text">{{ .Content }}</p>
+        <div class="card-text">{{ .Content }}</div>
 
         <div class="mt-4">
             {{ if .Params.tags }}
