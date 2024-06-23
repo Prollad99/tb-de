@@ -13,19 +13,21 @@
     {{ partial "header.html" . }}
 
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        {{ if .IsPage }}
-          {{ if .Params.tags }}
-            <li class="breadcrumb-item"><a href="/tags/">Tags</a></li>
-            {{ range .Params.tags }}
-              <li class="breadcrumb-item"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-            {{ end }}
-          {{ end }}
-          <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-        {{ end }}
-      </ol>
-    </nav>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    {{ if .IsPage }}
+      {{ range .CurrentSection }}
+        <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    {{ else if .IsTaxonomy }}
+      <li class="breadcrumb-item"><a href="/{{ .Plural }}">{{ .Plural | title }}</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    {{ else if .IsTaxonomyTerm }}
+      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+    {{ end }}
+  </ol>
+</nav>
 
     <main class="container">
         {{ block "main" . }}{{ end }}
