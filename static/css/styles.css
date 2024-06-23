@@ -9,50 +9,65 @@ line-height:1.625;
   background-color: #efe9e9;
 }
 
-.article {
-    margin-bottom: 10px;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-.thumbnail {
-    float: left;
-    margin-right: 2px;
-}
-.thumbnail img {
-    max-width: 80%;
-    height: auto;
-    border-radius: 5px;
-}
-.content {
-    padding: 10px;
-}
-.post-meta {
-    display: block;
-    font-size: 14px; 
-    color: #cf2e2e; 
-    margin-top: 5px; 
-     margin-left: 225px; 
-}
-.title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-@media (max-width: 768px) {
-    .article {
+.post-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .post-summary {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+        background-color: #fff;
+        overflow: hidden;
+        flex: 1 1 100%;
+        box-sizing: border-box;
+    }
+
+    .post-summary-image {
+        position: relative;
+        float: left;
+        margin-right: 20px;
         margin-bottom: 20px;
     }
-    .thumbnail {
-        margin-right: 0;
-        margin-bottom: 5px;
+
+    .post-summary-image img {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
     }
-    .thumbnail img {
-    max-width: 70%;
-    height: auto;
-    border-radius: 5px;
-}
-}
+
+    .post-summary-image button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .post-summary-content h2 {
+        margin: 0 0 10px 0;
+        font-size: 1.2em;
+    }
+
+    .post-summary-content p {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    @media (min-width: 768px) {
+        .post-summary {
+            flex: 1 1 calc(50% - 10px);
+            margin-right: 20px;
+        }
+
+        .post-summary:nth-child(2n) {
+            margin-right: 0;
+        }
+    }
