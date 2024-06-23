@@ -1,0 +1,15 @@
+<!-- layouts/tags/tag.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tag: {{ .Title }}</title>
+</head>
+<body>
+  <h1>Tag: {{ .Title }}</h1>
+  <ul>
+    {{ range .Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+</body>
+</html>
