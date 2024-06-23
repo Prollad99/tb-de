@@ -25,10 +25,10 @@
                     <li class="breadcrumb-item"><a href="{{ $parent.RelPermalink }}">{{ $parent.Title }}</a></li>
                 {{ end }}
                 <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-            {{ else if .IsTaxonomy }}
+            {{ else if .Kind == "taxonomy" }}
                 <li class="breadcrumb-item"><a href="{{ .Data.Plural }}">{{ .Data.Plural }}</a></li>
                 <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-            {{ else if .IsTaxonomyTerm }}
+            {{ else if .Kind == "taxonomyTerm" }}
                 <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
             {{ end }}
         </ol>
