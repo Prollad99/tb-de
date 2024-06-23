@@ -1,20 +1,72 @@
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<div class="article">
-<a href="{{ .Permalink }}">
-<h2 class="title">{{ .Title }}</h2>
-</a>
-<div class="thumbnail">
-<a href="{{ .Permalink }}">
-<img width="140" height="140" src="{{ .Params.image }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{ .Title }}" loading="lazy" decoding="async" title="{{ .Title }}">
-</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Post Summary with Image and Text</title>
+<style>
+    .post-summary {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 8px;
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        overflow: hidden;
+    }
+
+    .post-summary-image {
+        position: relative;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .post-summary-image img {
+        width: 80px;
+        height: 80px;
+        border-radius: 8px;
+    }
+
+    .post-summary-image button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .post-summary-content h2 {
+        margin: 0 0 10px 0;
+        font-size: 1.2em;
+    }
+
+    .post-summary-content p {
+        margin: 0;
+        font-size: 1em;
+    }
+</style>
+</head>
+<body>
+
+<div class="post-summary">
+    <div class="post-summary-image">
+        <a href="{{ .Permalink }}">
+            <img src="https://i.pinimg.com/736x/92/c2/4a/92c24a041cd06e2f61426b2795f7ff22.jpg" alt="{{ .Title }}">
+        </a>
+        <button>Click Me</button>
+    </div>
+    <div class="post-summary-content">
+        <h2><a href="{{ .Permalink }}">What is Lorem Ipsum?</a></h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    </div>
+    <div style="clear: both;"></div>
 </div>
-<div class="content">
-<p>{{ .Summary }}<br />
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+</body>
+</html>
