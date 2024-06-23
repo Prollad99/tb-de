@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container mt-4">
-    <h2>#{{ page.tag }}</h2>
+    <h2>Tag: #{{ .Params.name }}</h2>
     <div class="row">
         {% for page in site.pages %}
             <div class="col-md-6 mb-4">
