@@ -13,25 +13,18 @@
     {{ partial "header.html" . }}
 
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
-            {{ if .IsHome }}
-                <!-- Home page breadcrumb -->
-            {{ else if .IsSection }}
-                <li class="breadcrumb-item active" aria-current="page">{{ .Section }}</li>
-            {{ else if .IsPage }}
-                {{ $parent := .Parent }}
-                {{ if $parent }}
-                    <li class="breadcrumb-item"><a href="{{ $parent.RelPermalink }}">{{ $parent.Title }}</a></li>
-                {{ end }}
-                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-            {{ else if .Kind == "taxonomy" }}
-                <li class="breadcrumb-item"><a href="{{ .Data.Plural }}">{{ .Data.Plural }}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-            {{ else if .Kind == "taxonomyTerm" }}
-                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        {{ if .IsPage }}
+          {{ if .Params.tags }}
+            <li class="breadcrumb-item"><a href="/tags/">Tags</a></li>
+            {{ range .Params.tags }}
+              <li class="breadcrumb-item"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
             {{ end }}
-        </ol>
+          {{ end }}
+          <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+        {{ end }}
+      </ol>
     </nav>
 
     <main class="container">
