@@ -3,6 +3,12 @@
     <div class="card-body">
         <h1 class="card-title">{{ .Title }}</h1>
 
+<ul class="list-inline">
+  {{ range .Params.tags }}
+    <li class="list-inline-item"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge badge-primary">{{ . }}</a></li>
+  {{ end }}
+</ul>
+
         <div class="card-text">{{ .Content }}</div>
 
         <div class="mt-4">
