@@ -1,26 +1,20 @@
 <div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="article">
-                <a href="{{ .Permalink }}">
-                    <h2 class="title">{{ .Title }}</h2>
-                </a>
-                <div class="row">
-                    <div class="col-auto">
-                        <div class="thumbnail">
-                            <a href="{{ .Permalink }}">
-                                <img src="{{ .Params.image }}" class="img-fluid" alt="{{ .Title }}">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="content">
-                            <p>{{ .Summary }}</p>
-                            <span class="post-meta">Published on {{ .Date }}</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="row">
+<div class="col-md-6">
+<div class="article">
+<a href="{{ .Permalink }}">
+<h2 class="title">{{ .Title }}</h2>
+</a>
+<div class="thumbnail">
+<a href="{{ .Permalink }}">
+<img width="140" height="140" src="{{ .Params.image }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{ .Title }}" loading="lazy" decoding="async" title="{{ .Title }}">
+</a>
+</div>
+<div class="content">
+<p>{{ .Summary }}<br />
+</p>
+</div>
+</div>
+</div>
+</div>
 </div>
