@@ -4,14 +4,13 @@
         <h1 class="card-title">{{ .Title }}</h1>
 
 {{ if .Params.tags }}
-  <div class="tags">
-    <ul class="list-inline">
-      {{ range .Params.tags }}
-      <li class="list-inline-item"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
-      {{ end }}
-    </ul>
+  <div class="tags mt-3">
+    <span class="badge badge-primary">Tags:</span>
+    {{ range .Params.tags }}
+      <a href="{{ "tag/" | relURL }}{{ . }}" class="badge badge-secondary">{{ . }}</a>
+    {{ end }}
   </div>
-  {{ end }}
+{{ end }}
 
         <div class="card-text">{{ .Content }}</div>
 
