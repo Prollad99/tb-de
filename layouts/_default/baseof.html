@@ -18,7 +18,7 @@
         {{ if .IsPage }}
           {{ $section := .Section }}
           {{ if $section }}
-            <li class="breadcrumb-item"><a href="{{ $section.Permalink }}">{{ $section.Title }}</a></li>
+            <li class="breadcrumb-item"><a href="{{ (site.GetPage "section" $section).Permalink }}">{{ (site.GetPage "section" $section).Title }}</a></li>
           {{ end }}
           {{ if .Params.tags }}
             {{ range $index, $tag := .Params.tags }}
