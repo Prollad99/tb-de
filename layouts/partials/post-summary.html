@@ -1,105 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Post Summary with Image and Text</title>
-<style>
-    .post-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .post-summary {
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 8px;
-        background-color: #fff;
-        overflow: hidden;
-        flex: 1 1 100%;
-        box-sizing: border-box;
-    }
-
-    .post-summary-image {
-        position: relative;
-        float: left;
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
-
-    .post-summary-image img {
-        width: 80px;
-        height: 80px;
-        border-radius: 8px;
-    }
-
-    .post-summary-image button {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        padding: 5px 10px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    .post-summary-content h2 {
-        margin: 0 0 10px 0;
-        font-size: 1.2em;
-    }
-
-    .post-summary-content p {
-        margin: 0;
-        font-size: 1em;
-    }
-
-    @media (min-width: 768px) {
-        .post-summary {
-            flex: 1 1 calc(50% - 10px);
-            margin-right: 20px;
-        }
-
-        .post-summary:nth-child(2n) {
-            margin-right: 0;
-        }
-    }
-</style>
-</head>
-<body>
-
 <div class="post-container">
     <div class="post-summary">
         <div class="post-summary-image">
             <a href="{{ .Permalink }}">
-                <img src="https://i.pinimg.com/736x/92/c2/4a/92c24a041cd06e2f61426b2795f7ff22.jpg" alt="{{ .Title }}">
+                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+            <button>Claim Now</button>
             </a>
-            <button>Click Me</button>
         </div>
         <div class="post-summary-content">
-            <h2><a href="{{ .Permalink }}">What is Lorem Ipsum?</a></h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Summary }}</p>
         </div>
-        <div style="clear: both;"></div>
-    </div>
-    <!-- Add more post summaries here -->
-    <div class="post-summary">
-        <div class="post-summary-image">
-            <a href="{{ .Permalink }}">
-                <img src="https://i.pinimg.com/736x/92/c2/4a/92c24a041cd06e2f61426b2795f7ff22.jpg" alt="{{ .Title }}">
-            </a>
-            <button>Click Me</button>
-        </div>
-        <div class="post-summary-content">
-            <h2><a href="{{ .Permalink }}">What is Lorem Ipsum?</a></h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        </div>
-        <div style="clear: both;"></div>
     </div>
 </div>
-
-</body>
-</html>
