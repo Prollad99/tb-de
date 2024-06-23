@@ -13,21 +13,25 @@
     {{ partial "header.html" . }}
 
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Home</a></li>
-        {{ if .IsPage }}
-          {{ $section := $.Site.GetPage (printf "/%s" .Section) }}
-          {{ if $section }}
-            <li class="breadcrumb-item"><a href="{{ $section.Permalink }}">{{ $section.Title }}</a></li>
-          {{ end }}
-          {{ if .Params.tags }}
-            {{ range .Params.tags }}
-              <li class="breadcrumb-item"><a href="{{ "tag/" | relURL }}{{ . }}">{{ . }}</a></li>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            {{ if .IsHome }}
+                <!-- Home page breadcrumb -->
+            {{ else if .IsSection }}
+                <li class="breadcrumb-item active" aria-current="page">{{ .Section }}</li>
+            {{ else if .IsPage }}
+                {{ $parent := .Parent }}
+                {{ if $parent }}
+                    <li class="breadcrumb-item"><a href="{{ $parent.RelPermalink }}">{{ $parent.Title }}</a></li>
+                {{ end }}
+                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+            {{ else if .IsTaxonomy }}
+                <li class="breadcrumb-item"><a href="{{ .Data.Plural }}">{{ .Data.Plural }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+            {{ else if .IsTaxonomyTerm }}
+                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
             {{ end }}
-          {{ end }}
-          <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-        {{ end }}
-      </ol>
+        </ol>
     </nav>
 
     <main class="container">
