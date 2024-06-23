@@ -4,7 +4,7 @@
         <h1 class="card-title">{{ .Title }}</h1>
 
 {{ if .Params.tags }}
-  <div class="tags mt-3 mb-3">
+  <div class="tags mt-3 mb-2">
     <span class="badge badge-primary">Tags:</span>
     {{ range .Params.tags }}
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge badge-secondary">{{ . }}</a>
