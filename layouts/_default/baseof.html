@@ -16,15 +16,6 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Home</a></li>
         {{ if .IsPage }}
-          {{ $section := .Section }}
-          {{ if $section }}
-            <li class="breadcrumb-item"><a href="{{ $section.Permalink }}">{{ $section.Title }}</a></li>
-          {{ end }}
-          {{ if .Params.tags }}
-            {{ range $index, $tag := .Params.tags }}
-              <li class="breadcrumb-item"><a href="{{ "tag/" | relURL }}{{ $tag }}">{{ $tag }}</a></li>
-            {{ end }}
-          {{ end }}
           <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
         {{ end }}
       </ol>
