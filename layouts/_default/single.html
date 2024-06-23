@@ -1,28 +1,16 @@
 {{ define "main" }}
 <div class="card mb-3">
     <div class="card-body">
-        <!-- Breadcrumb Navigation -->
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/">Home</a></li>
-                {{ if .Parent }}
-                    <li class="breadcrumb-item"><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
-                {{ end }}
-                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-            </ol>
-        </nav>
-
-        <!-- Main Content -->
         <h1 class="card-title">{{ .Title }}</h1>
 
-        {{ if .Params.tags }}
-        <div class="tags mt-3 mb-2">
-            <span class="badge badge-primary">Tags:</span>
-            {{ range .Params.tags }}
-                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge badge-secondary">#{{ . }}</a>
-            {{ end }}
-        </div>
-        {{ end }}
+{{ if .Params.tags }}
+  <div class="tags mt-3 mb-2">
+    <span class="badge badge-primary">Tags:</span>
+    {{ range .Params.tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge badge-secondary">#{{ . }}</a>
+    {{ end }}
+  </div>
+{{ end }}
 
         <div class="card-text">{{ .Content }}</div>
 
