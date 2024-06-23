@@ -1,15 +1,13 @@
-<!-- layouts/tags/terms.html -->
-<!DOCTYPE html>
-<html>
-<head>
-  <title>All Tags</title>
-</head>
-<body>
-  <h1>All Tags</h1>
-  <ul>
-    {{ range .Data.Terms.Alphabetical }}
-      <li><a href="{{ .Page.Permalink }}">{{ .Term }}</a> ({{ .Count }})</li>
+{{ define "main" }}
+<section>
+  <header>
+    <h1>All Tags</h1>
+  </header>
+  
+  <ul class="list-inline">
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <li class="list-inline-item"><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
     {{ end }}
   </ul>
-</body>
-</html>
+</section>
+{{ end }}
