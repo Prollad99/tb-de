@@ -5,18 +5,10 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                {{ if .IsPage }}
-                    {{ if .CurrentSection }}
-                        <li class="breadcrumb-item"><a href="{{ .CurrentSection.Permalink }}">{{ .CurrentSection.Title }}</a></li>
-                    {{ end }}
-                    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                {{ if .Parent }}
+                    <li class="breadcrumb-item"><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
                 {{ end }}
-                {{ if .Params.tags }}
-                    <li class="breadcrumb-item"><a href="{{ "/tags/" | relLangURL }}">Tags</a></li>
-                    {{ range .Params.tags }}
-                        <li class="breadcrumb-item active" aria-current="page">{{ . }}</li>
-                    {{ end }}
-                {{ end }}
+                <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
             </ol>
         </nav>
 
