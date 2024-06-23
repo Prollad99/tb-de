@@ -8,18 +8,18 @@
     .post-container {
         display: flex;
         flex-wrap: wrap;
+        gap: 20px;
     }
 
     .post-summary {
         border: 1px solid #ccc;
         padding: 10px;
-        margin: 10px;
+        margin: 10px 0;
         border-radius: 8px;
         background-color: #fff;
-        font-family: Arial, sans-serif;
-        max-width: 500px;
         overflow: hidden;
-        flex: 1 1 calc(100% - 20px); /* default to full width */
+        flex: 1 1 calc(100% - 20px);
+        box-sizing: border-box;
     }
 
     .post-summary-image {
@@ -58,13 +58,9 @@
         font-size: 1em;
     }
 
-    .clearfix {
-        clear: both;
-    }
-
     @media (min-width: 768px) {
         .post-summary {
-            flex: 1 1 calc(50% - 20px); /* 50% width minus margin */
+            flex: 1 1 calc(50% - 20px);
         }
     }
 </style>
@@ -83,9 +79,9 @@
             <h2><a href="{{ .Permalink }}">What is Lorem Ipsum?</a></h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
         </div>
-        <div class="clearfix"></div>
+        <div style="clear: both;"></div>
     </div>
-
+    <!-- Add more post summaries here -->
     <div class="post-summary">
         <div class="post-summary-image">
             <a href="{{ .Permalink }}">
@@ -97,7 +93,7 @@
             <h2><a href="{{ .Permalink }}">What is Lorem Ipsum?</a></h2>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
         </div>
-        <div class="clearfix"></div>
+        <div style="clear: both;"></div>
     </div>
 </div>
 
