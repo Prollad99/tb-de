@@ -27,7 +27,7 @@ Um Ihre täglichen Free Spins und Dice zu erhalten, folgen Sie diesen einfachen 
 
 ### Heutige Free Dice und Spins
 
-{{ partial "piggy-go.html" . }}
+{{< piggy-go >}}
 
 ### So nutzen Sie die Free Rewards
 
