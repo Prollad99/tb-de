@@ -1,10 +1,10 @@
 {{ define "main" }}
-<div class="container mt-4 shadow-sm">
+<div class="container mt-4">
     <div class="row">
         {{ range .Site.RegularPages }}
             {{ if eq .Type "post" }}
             <div class="col-md-6 mb-4">
-                <div class="card">
+                <div class="card shadow-sm">
                     <div class="row no-gutters">
                         <div class="col-4 d-flex flex-column align-items-center justify-content-center">
                             {{ with .Params.image }}
