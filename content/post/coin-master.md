@@ -1,5 +1,5 @@
 ---
-title: "Coin Master Free Spins und Coins - Tägliche Updates"
+title: "Coin Master Free Spins and Coins - Tägliche Updates"
 date: 2024-06-24
 draft: false
 summary: "Erhalten Sie die neuesten Coin Master Free Spins und Coins Links, die täglich aktualisiert werden. Bleiben Sie im Spiel vorne mit unseren aktuellen Belohnungen."
