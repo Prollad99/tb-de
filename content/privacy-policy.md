@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy"
+title: "Privacy Policy - Tages Bonus"
 date: 2024-06-24
 author: "Tagesbonus.de"
 draft: false
