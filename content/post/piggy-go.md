@@ -9,7 +9,7 @@ tags:
   - "Free Spins"
   - "Free Dice"
   - "Tägliche Belohnungen"
-featured_image: "/images/piggy-go.png"
+image: "/images/piggy-go.png"
 draft: false
 ---
 
