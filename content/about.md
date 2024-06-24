@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About - Tages Bonus"
 date: 2024-06-24
 author: "Tagesbonus.de"
 draft: false
