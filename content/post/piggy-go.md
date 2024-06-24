@@ -2,7 +2,7 @@
 title: "Piggy GO Free Spins und Dice - Tägliche Belohnungen"
 date: 2024-06-24
 author: "Tagesbonus.de"
-description: "Täglich aktualisierte Links für Free Spins und Dice in Piggy GO. Bleiben Sie mit unseren täglichen Belohnungen im Spiel vorne."
+summary: "Täglich aktualisierte Links für Free Spins und Dice in Piggy GO. Bleiben Sie mit unseren täglichen Belohnungen im Spiel vorne."
 slug: "piggy-go-free-spins-und-dice"
 tags: 
   - "Piggy GO"
