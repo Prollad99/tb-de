@@ -8,6 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' rel='stylesheet'/>
     <link href="{{ "css/styles.css" | relURL }}" rel="stylesheet">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}">
 
     <!-- Meta Description -->
     <meta name="description" content="{{ if .Params.metaDescription }}{{ .Params.metaDescription }}{{ else }}{{ .Summary | plainify | htmlEscape }}{{ end }}">
