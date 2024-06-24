@@ -3,6 +3,13 @@
     <div class="card-body">
         <h1 class="card-title">{{ .Title }}</h1>
 
+<p class="post-meta">
+      <span class="post-date">Veröffentlicht am {{ .Date.Format "2. January 2006" }}</span>
+      {{ if .Params.author }}
+        <span class="post-author">von {{ .Params.author }}</span>
+      {{ end }}
+    </p>
+
 {{ if .Params.tags }}
   <div class="tags mt-3 mb-2">
     <span class="badge badge-primary">Tags:</span>
