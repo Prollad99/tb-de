@@ -14,13 +14,13 @@
     {{ partial "header.html" . }}
 
     <nav aria-label="breadcrumb">
-  <ol class="breadcrumb bg-white p-2 rounded shadow-sm">
-    <li class="breadcrumb-item"><a href="/" class="text-decoration-none"><i class="bi bi-house-fill"></i> Home</a></li>
-    {{ if .IsPage }}
-      <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
-    {{ end }}
-  </ol>
-</nav>
+      <ol class="breadcrumb shadow-sm">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        {{ if .IsPage }}
+          <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+        {{ end }}
+      </ol>
+    </nav>
 
     <main class="container">
         {{ block "main" . }}{{ end }}
