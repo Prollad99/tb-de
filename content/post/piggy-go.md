@@ -27,9 +27,7 @@ Um Ihre täglichen Free Spins und Dice zu erhalten, folgen Sie diesen einfachen 
 
 ### Heutige Free Dice und Spins
 
-- **[Free Dice & Spins - 24. Juni 2024](#)**
-- **[Free Dice & Spins - 23. Juni 2024](#)**
-- **[Free Dice & Spins - 22. Juni 2024](#)**
+{{ partial "piggy-go.html" . }}
 
 ### So nutzen Sie die Free Rewards
 
