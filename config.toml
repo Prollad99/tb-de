@@ -2,6 +2,12 @@ baseURL = "https://stalwart-pastelito-a61597.netlify.app"
 languageCode = "de"
 title = "Tages Bonus"
 
+defaultContentLanguage = "de"
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    dateFormat = "2. January 2006"
+
 [taxonomies]
   tag = "tags"
 
