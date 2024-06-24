@@ -14,3 +14,5 @@ defaultContentLanguage = "de"
 [permalinks]
 post = "/:slug/"
 
+[params]
+  description = "Erhalten Sie täglich Freispiele, Münzen und Boni für Spiele. Sofortiger Zugriff auf die neuesten Promo-Links. Verbessern Sie Ihr Spiel!"
