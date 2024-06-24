@@ -1,6 +1,6 @@
 baseURL = "https://tagesbonus.de"
 languageCode = "de"
-title = "Tagesbonus - Täglich spins, coins und mehr!"
+title = "Tagesbonus.de - Tägliche Freispiele und Münzen"
 
 defaultContentLanguage = "de"
 [languages]
@@ -15,7 +15,7 @@ defaultContentLanguage = "de"
 post = "/:slug/"
 
 [params]
-  description = "Erhalten Sie täglich Freispiele, Münzen und Boni für Spiele. Sofortiger Zugriff auf die neuesten Promo-Links. Verbessern Sie Ihr Spiel!"
+  description = "Entdecken Sie tägliche Freispiele, Münzen und Belohnungen für Ihre Lieblings-Slot-Spiele wie Coin Master, Piggy Go, Slotomania, House of Fun und Pop Slots auf Tagesbonus.de. Maximieren Sie Ihr Spielerlebnis mit unseren täglich aktualisierten Boni!"
 
 [markup]
   [markup.goldmark]
