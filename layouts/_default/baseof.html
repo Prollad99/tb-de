@@ -29,12 +29,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
 </head>
 <body>
-    {{ partial "header.html" . }}
-
-            <form class="form-inline my-2 my-lg-0" id="search-form">
-                <input class="form-control mr-sm-2" type="search" placeholder="Suche" aria-label="Search" id="search-input">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Suche</button>
-            </form>
+    {{ partial "header.html" . }
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb bg-white shadow-sm">
@@ -44,6 +39,11 @@
             {{ end }}
         </ol>
     </nav>
+
+<form class="form-inline my-2 my-lg-0" id="search-form">
+                <input class="form-control mr-sm-2" type="search" placeholder="Suche" aria-label="Search" id="search-input">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Suche</button>
+            </form>
 
     <main class="container">
         {{ block "main" . }}{{ end }}
