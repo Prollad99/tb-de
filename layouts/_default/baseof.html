@@ -17,8 +17,7 @@
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/"><i class="bi bi-house-fill"></i> Home</a></li>
     {{ if .IsPage }}
-      {{ $permalink := .Permalink }}
-      <li class="breadcrumb-item active" aria-current="page"><a href="{{ $permalink }}">{{ $permalink }}</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ol>
 </nav>
