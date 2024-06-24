@@ -3,6 +3,7 @@ title: "Coin Master Free Spins und Coins - Tägliche Updates"
 date: 2024-06-24
 draft: false
 summary: "Erhalten Sie die neuesten Coin Master Free Spins und Coins Links, die täglich aktualisiert werden. Bleiben Sie im Spiel vorne mit unseren aktuellen Belohnungen."
+slug: "coin-master-free-spins-und-coins"
 author: "Tagesbonus.de"
 tags: 
   - Coin Master
@@ -48,4 +49,4 @@ Ja, aber es ist kosteneffektiver, die täglichen Links und Methoden zu nutzen, d
 
 Bleiben Sie dran für tägliche Updates und viel Spaß beim Drehen!
 
-[Besuchen Sie Tagesbonus.de für weitere Updates](https://tagesbonus.de)
+[Besuchen Sie Tagesbonus.de für weitere Updates](https://www.tagesbonus.de)
