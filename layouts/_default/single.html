@@ -11,7 +11,7 @@
     </p>
 
 {{ if .Params.tags }}
-  <div class="tags mt-3 mb-2">
+  <div class="tags mt-3 mb-3">
     <span class="badge badge-primary">Tags:</span>
     {{ range .Params.tags }}
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="badge badge-secondary">#{{ . }}</a>
