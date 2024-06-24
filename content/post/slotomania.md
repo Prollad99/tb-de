@@ -19,7 +19,7 @@ Jeden Tag werden neue Links bereitgestellt, um deine kostenlosen Slotomania Mün
 2. **Klicke auf die Links**: Jeder Link führt dich direkt zum Slotomania-Spiel, wo du deine kostenlosen Münzen einsammeln kannst.
 3. **Mit Facebook verbinden**: Stelle sicher, dass dein Slotomania-Konto mit Facebook verbunden ist, um alle Belohnungen zu erhalten.
 
-## Heutige kostenlose Münzen (24. Juni 2024)
+## Heutige kostenlose Münzen
 
 {{< slotomania >}}
 
