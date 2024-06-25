@@ -18,7 +18,7 @@ Willkommen zu Ihrem ultimativen Ziel für **Coin Master free spins and coins**! 
 
 ## Tägliche Free Spins und Coins
 
-{{< coin-master >}}
+{{< include-md "static/rewards/coin-master.md" >}}
 
 ## So lösen Sie Ihre Free Spins ein
 
