@@ -1,0 +1,15 @@
+{
+  "name": "slotomania-free-coins",
+  "version": "1.0.0",
+  "description": "Automate fetching Slotomania free coins links",
+  "main": "index-js/slotomania.js",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cheerio": "^1.0.0-rc.10",
+    "jsdom": "^24.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "scripts": {
+    "start": "node index-js/slotomania.js"
+  }
+}
