@@ -26,3 +26,11 @@ post = "/:slug/"
   changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
+
+# Custom Output Formats for Sitemap
+[outputs]
+  [outputs.sitemap]
+    baseName = "sitemap"
+    mediaType = "application/xml"
+    isPlainText = false
+    notAlternative = true
