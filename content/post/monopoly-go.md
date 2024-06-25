@@ -13,7 +13,7 @@ Willkommen auf tagesbonus.de! Hier findest du täglich aktualisierte Links zu ko
 
 ## Heutige kostenlosen Monopoly Go Würfel Links:
 
-{{< monopoly-go >}}
+{{< include-md "static/rewards/monopoly-go.md" >}}
 
 ## So löst du die kostenlosen Würfel ein:
 
