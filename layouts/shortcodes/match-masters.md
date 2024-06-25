@@ -1,4 +1,4 @@
-<div class="reward"><ul>
+- [collect free rewards 25.6.2024](https://go.matchmasters.io/l/p/-8d4p3VrO7Y)
 - [collect free rewards 24.6.2024](https://go.matchmasters.io/l/p/GNQiEM6kft0)
 - [collect free rewards 24.6.2024](https://go.matchmasters.io/l/p/GR8rsxVJWc0)
 - [collect free rewards 24.6.2024](http://go.matchmasters.io/l/p/cSXC1N2XNok)
@@ -578,4 +578,3 @@
 - [collect free rewards 12.1.2024](https://go.matchmasters.io/l/p/1Fd5TeVVlNg)
 - [collect free rewards 12.1.2024](https://go.matchmasters.io/l/p/KKlgEjqSpUw)
 - [collect free rewards 12.1.2024](https://go.matchmasters.io/l/p/BqWUeX1qsME)
-</ul></div>
