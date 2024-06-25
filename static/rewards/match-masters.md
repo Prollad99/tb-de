@@ -1,3 +1,5 @@
+- [collect free rewards 25.6.2024](https://go.matchmasters.io/l/p/kB2bX-9ePsM)
+
 - [collect free rewards 25.6.2024](https://go.matchmasters.io/l/p/-8d4p3VrO7Y)
 
 - [collect free rewards 24.6.2024](https://go.matchmasters.io/l/p/GNQiEM6kft0)
