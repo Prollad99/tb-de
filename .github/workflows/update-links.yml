@@ -45,9 +45,7 @@ jobs:
 
       - name: Update Reward Page
         run: |
-          echo '<div class="reward"><ul>' > layouts/shortcodes/${{ matrix.game }}.md
-          jq -r '.[] | "- [" + .text + "](" + .href + ")"' links-json/${{ matrix.game }}.json >> layouts/shortcodes/${{ matrix.game }}.md
-          echo '</ul></div>' >> layouts/shortcodes/${{ matrix.game }}.md
+          jq -r '.[] | "- [" + .text + "](" + .href + ")"' links-json/${{ matrix.game }}.json > layouts/shortcodes/${{ matrix.game }}.md
           echo "Content of layouts/shortcodes/${{ matrix.game }}.md:"
           cat layouts/shortcodes/${{ matrix.game }}.md
 
