@@ -35,7 +35,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies
-        run: npm install jq axios cheerio
+        run: npm install jq axios cheerio html-to-text
 
       - name: Fetch and Update Links
         run: |
@@ -45,11 +45,14 @@ jobs:
 
       - name: Update Reward Page
         run: |
-          echo "# ${matrix.game} Rewards" > layouts/shortcodes/${{ matrix.game }}.md
-          echo "" >> layouts/shortcodes/${{ matrix.game }}.md
-          jq -r '.[] | "- [\(.text)](\(.href))"' links-json/${{ matrix.game }}.json >> layouts/shortcodes/${{ matrix.game }}.md
-          echo "Content of layouts/shortcodes/${{ matrix.game }}.md:"
-          cat layouts/shortcodes/${{ matrix.game }}.md
+          echo '<div class="reward"><ul>' > layouts/shortcodes/${{ matrix.game }}.html
+          jq -r '.[] | "<li><a href=\"" + .href + "\">" + .text + "</a></li>"' links-json/${{ matrix.game }}.json >> layouts/shortcodes/${{ matrix.game }}.html
+          echo '</ul></div>' >> layouts/shortcodes/${{ matrix.game }}.html
+
+          # Convert HTML to Markdown
+          npx html-to-text layouts/shortcodes/${{ matrix.game }}.html > content/${{ matrix.game }}.md
+          echo "Content of content/${{ matrix.game }}.md:"
+          cat content/${{ matrix.game }}.md
 
       - name: Configure Git
         run: |
@@ -60,7 +63,7 @@ jobs:
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         run: |
-          git add layouts/shortcodes/${{ matrix.game }}.md links-json/${{ matrix.game }}.json
+          git add layouts/shortcodes/${{ matrix.game }}.html links-json/${{ matrix.game }}.json content/${{ matrix.game }}.md
           git add package.json package-lock.json || true
           git commit -m "Update ${{ matrix.game }} reward links" || true
 
