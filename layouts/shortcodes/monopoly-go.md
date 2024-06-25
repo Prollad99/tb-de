@@ -1,4 +1,3 @@
-<div class="reward"><ul>
 - [30 free dice 24.6.2024](https://2tdd.adj.st/reward-link/nngkuyjyii8889?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
 - [25 free dice 24.6.2024](https://mply.io/EdaGuvfM014)
 - [25 free dice 24.6.2024](https://2tdd.adj.st/reward-link/nbhskujy6276682?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
@@ -362,4 +361,3 @@
 - [25 free dice 03.01.2024](https://2tdd.adj.st/reward-link/IGsocial575LK-09fH?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
 - [.25 free dice 02.01.2024](https://2tdd.adj.st/reward-link/IGsocial0CV3-9yd2?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
 - [25 free dice 01.01.2024](https://2tdd.adj.st/reward-link/IGsocial06JU-94e3?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
-</ul></div>
