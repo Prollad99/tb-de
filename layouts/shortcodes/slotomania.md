@@ -1,4 +1,3 @@
-<div class="reward"><ul>
 - [slotomania free coins 22.6.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1719010800345_0zo94jl6)
 - [slotomania free coins 22.6.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1719010800221_0gj87zzm)
 - [slotomania free coins 22.6.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1718874935010_ogl6y56r)
@@ -299,4 +298,3 @@
 - [slotomaina free coins 01.5.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1714036160729_ezm5jgm7)
 - [slotomaina free coins 01.5.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1714478012769_74jd6rne)
 - [slotomaina free coins 01.5.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1714431600106_pzx8z26r)
-</ul></div>
