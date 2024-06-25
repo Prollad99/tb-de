@@ -1,4 +1,3 @@
-<div class="reward"><ul>
 - [Free dice link 24.6.2024](https://piggygo-jy.forevernine.com/fanpage?code=ZHBITMDG&channel=1)
 - [Free dice link 24.6.2024](https://piggygo-jy.forevernine.com/fanpage?code=ZHBITMDG&channel=4)
 - [Free dice link 23.6.2024](https://piggygo-jy.forevernine.com/fanpage?code=S8TWPPLT&channel=1)
@@ -1062,4 +1061,3 @@
 - [free dice link 1.6.2023](https://piggygo-jy.forevernine.com/PS12A7F2C0)
 - [free dice link 1.6.2023](https://piggygo-jy.forevernine.com/PD12A7F39F)
 - [free dice link 1.6.2023](https://piggygo-jy.forevernine.com/PA12A7F42A)
-</ul></div>
