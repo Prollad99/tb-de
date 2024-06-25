@@ -45,9 +45,9 @@ jobs:
 
       - name: Update Reward Page
         run: |
-          jq -r '.[] | "- [" + .text + "](" + .href + ")"' links-json/${{ matrix.game }}.json > layouts/shortcodes/${{ matrix.game }}.md
-          echo "Content of layouts/shortcodes/${{ matrix.game }}.md:"
-          cat layouts/shortcodes/${{ matrix.game }}.md
+          jq -r '.[] | "- [" + .text + "](" + .href + ")"' links-json/${{ matrix.game }}.json > static/rewards/${{ matrix.game }}.md
+          echo "Content of static/rewards/${{ matrix.game }}.md:"
+          cat static/rewards/${{ matrix.game }}.md
 
       - name: Configure Git
         run: |
@@ -58,7 +58,7 @@ jobs:
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         run: |
-          git add layouts/shortcodes/${{ matrix.game }}.md links-json/${{ matrix.game }}.json
+          git add static/rewards/${{ matrix.game }}.md links-json/${{ matrix.game }}.json
           git add package.json package-lock.json || true
           git commit -m "Update ${{ matrix.game }} reward links" || true
 
