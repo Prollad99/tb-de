@@ -3,7 +3,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{- $baseURL := .Site.BaseURL -}}
   {{ range .Site.Pages }}
-    {{- if and (not .Params.sitemap_exclude) (not (eq .Kind "taxonomyTerm")) (not (eq .Kind "taxonomy")) -}}
+    {{- if not (in .File.Path "tags") -}}
       <url>
         <loc>{{ .Permalink }}</loc>
         <lastmod>{{ .Date.Format "2006-01-02" }}</lastmod>
