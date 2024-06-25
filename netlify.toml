@@ -1,0 +1,6 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[context.production.environment]
+  HUGO_VERSION = "0.111.0"  # Replace with the desired Hugo version
