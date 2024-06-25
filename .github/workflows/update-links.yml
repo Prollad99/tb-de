@@ -45,7 +45,7 @@ jobs:
 
       - name: Update Reward Page
         run: |
-          jq -r '.[] | "- [" + .text + "](" + .href + ")"' links-json/${{ matrix.game }}.json > static/rewards/${{ matrix.game }}.md
+          jq -r '.[] | "- [" + .text + "](" + .href + ")\n"' links-json/${{ matrix.game }}.json > static/rewards/${{ matrix.game }}.md
           echo "Content of static/rewards/${{ matrix.game }}.md:"
           cat static/rewards/${{ matrix.game }}.md
 
