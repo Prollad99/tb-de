@@ -21,7 +21,7 @@ Jeden Tag werden neue Links bereitgestellt, um deine kostenlosen Slotomania Mün
 
 ## Heutige kostenlose Münzen
 
-{{< slotomania >}}
+{{< include-md "static/rewards/slotomania.md" >}}
 
 ## Features von Slotomania
 
