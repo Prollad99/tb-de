@@ -26,3 +26,6 @@ post = "/:slug/"
   changefreq = "daily"
   priority = 0.5
   filename = "sitemap.xml"
+
+[params]
+    404 = "404.html"
