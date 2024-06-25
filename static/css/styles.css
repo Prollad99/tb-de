@@ -8,3 +8,19 @@ line-height:1.625;
   margin: 0;
   background-color: #efe9e9;
 }
+
+.reward ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+.reward ul li {
+  padding: 10px;
+  margin: 0; /* Ensure no margin on the list items */
+}
+.reward ul li a {
+            text-transform: capitalize; /* Capitalize the first letter of each word */
+        }
+        .reward ul li a::first-letter {
+            text-transform: uppercase; /* Ensure the first letter is always uppercase */
+        }
