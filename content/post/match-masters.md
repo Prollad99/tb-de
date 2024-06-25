@@ -12,7 +12,7 @@ Willkommen auf tagesbonus.de, Ihrer Quelle für die neuesten **Match Masters Fre
 
 ### Aktuelle Match Masters Free Gifts
 
-{{< match-masters >}}
+{{< include-md "static/rewards/match-masters.md" >}}
 
 Stellen Sie sicher, dass Sie die Links innerhalb von 48 Stunden einlösen, da sie schnell ablaufen können.
 
