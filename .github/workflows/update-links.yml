@@ -19,6 +19,7 @@ jobs:
           - bingo-blitz
           - match-masters
           - piggy-go
+          - wsop
 
     steps:
       - name: Checkout repository
