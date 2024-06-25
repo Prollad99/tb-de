@@ -1,5 +1,4 @@
-{{/* layouts/_default/sitemap.xml */}}
-{{ printf "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>" | safeHTML }}
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ $baseURL := .Site.BaseURL }}
   {{ range .Site.Pages }}
