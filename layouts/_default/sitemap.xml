@@ -1,15 +1,15 @@
 {{/* layouts/_default/sitemap.xml */}}
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {{- $baseURL := .Site.BaseURL -}}
+  {{ $baseURL := .Site.BaseURL }}
   {{ range .Site.Pages }}
-    {{- if not (in .File.Path "tags") -}}
+    {{ if and (not .Params.sitemap_exclude) (not (eq .Kind "taxonomyTerm")) (not (eq .Kind "taxonomy")) }}
       <url>
-        <loc>{{ .Permalink }}</loc>
+        <loc>{{ .Permalink | safeHTML }}</loc>
         <lastmod>{{ .Date.Format "2006-01-02" }}</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.5</priority>
       </url>
-    {{- end -}}
+    {{ end }}
   {{ end }}
 </urlset>
