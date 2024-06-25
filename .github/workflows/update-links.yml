@@ -20,6 +20,7 @@ jobs:
           - match-masters
           - piggy-go
           - wsop
+          - pop-slots
 
     steps:
       - name: Checkout repository
