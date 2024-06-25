@@ -19,7 +19,7 @@ Nutze die untenstehenden Links, um deine kostenlosen Credits für Bingo Blitz zu
 
 ### Links für heute
 
-{{< bingo-blitz >}}
+{{< include-md "static/rewards/bingo-blitz.md" >}}
 
 ## Wie man weitere kostenlose Credits erhält
 
