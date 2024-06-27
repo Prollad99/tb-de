@@ -1,3 +1,7 @@
+- [Free dice link 27.6.2024](https://piggygo-jy.forevernine.com/fanpage?code=QNDVOSPW&channel=1)
+
+- [Free dice link 27.6.2024](https://piggygo-jy.forevernine.com/fanpage?code=QNDVOSPW&channel=4)
+
 - [Free dice link 27.6.2024](https://piggygo-jy.forevernine.com/fanpage?code=PHFYLKCK&channel=1)
 
 - [Free dice link 27.6.2024](https://piggygo-jy.forevernine.com/fanpage?code=PHFYLKCK&channel=4)
