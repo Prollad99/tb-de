@@ -21,6 +21,7 @@ jobs:
           - piggy-go
           - wsop
           - pop-slots
+          - house-of-fun
 
     steps:
       - name: Checkout repository
