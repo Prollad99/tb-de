@@ -7,7 +7,7 @@
         <loc>{{ .Permalink | safeHTML }}</loc>
         <lastmod>{{ .Date.Format "2006-01-02" }}</lastmod>
         <changefreq>daily</changefreq>
-        <priority>0.5</priority>
+        <priority>1.0</priority>
       </url>
     {{ end }}
   {{ end }}
