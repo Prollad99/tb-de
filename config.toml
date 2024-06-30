@@ -25,4 +25,4 @@ post = "/:slug/"
 [sitemap]
   changefreq = "daily"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = 1.0
