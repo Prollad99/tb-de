@@ -1,3 +1,5 @@
+- [25 free dice 1.7.2024](https://2tdd.adj.st/reward-link/kau3u568127?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
+
 - [30 free dice 30.6.2024](https://2tdd.adj.st/reward-link/nfhry3756hs629098?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
 
 - [25 free dice 30.6.2024](https://2tdd.adj.st/reward-link/vnawiu314134jkd?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
