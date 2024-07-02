@@ -21,8 +21,3 @@ post = "/:slug/"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[sitemap]
-  changefreq = "daily"
-  filename = "sitemap.xml"
-  priority = 1.0
