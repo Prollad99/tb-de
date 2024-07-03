@@ -1,3 +1,5 @@
+- [bingo blitz credits 3.7.2024](https://d10x.co/BingoBlitz/nzQ1O)
+
 - [bingo blitz credits 3.7.2024](https://d10x.co/BingoBlitz/SzRIb)
 
 - [bingo blitz credits 3.7.2024](https://d10x.co/BingoBlitz/u12a0)
