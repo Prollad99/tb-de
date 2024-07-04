@@ -1,3 +1,7 @@
+- [40 spins 04.07](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_HIRHNNLHdf_20240629)
+
+- [70 spins 04.07](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_RICHcNYaac_20240624)
+
 - [50 spins 04.07](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCBpYZGBY_20240704)
 
 - [25 spins 04.07](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_INSoltOEO_20240704)
