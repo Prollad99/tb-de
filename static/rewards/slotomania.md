@@ -1,3 +1,11 @@
+- [solomania free coins 07.7.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1719492407507_rokp86yl)
+
+- [solomania free coins 07.7.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1720202475531_5er20mkg)
+
+- [.solomania free coins 07.7.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1720294200177_oygjr927)
+
+- [.solomania free coins 07.7.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1719483622352_oy80rxzw)
+
 - [slotomania free coins 06.7.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1720207800168_3kp03d4d)
 
 - [slotomania free coins 06.7.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1720010349691_ym6e9wj8)
