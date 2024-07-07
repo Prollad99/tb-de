@@ -1,3 +1,5 @@
+- [collect free rewards 7.7.2024](https://go.matchmasters.io/l/p/StoneAgeSplash)
+
 - [collect free rewards 7.7.2024](https://go.matchmasters.io/l/p/sbSvdPDPV2w)
 
 - [collect free rewards 6.7.2024](https://go.matchmasters.io/l/p/lCIOnwVY7a4)
