@@ -1,3 +1,5 @@
+- [bingo blitz credits 9.7.2024](https://bingo-app-dsa.playtika.com/bingo2-v2-bingoblitz/incentive/?incentive=35510ce2adf61e7957f3d04f54b2041bf188aea0dd31e4112a864d3b025aa04c&desktop=fb&scene=popup&asset=inbox.PopupGiftCenter&originId=44796&gameref=FBS_080724)
+
 - [bingo blitz credits 8.7.2024](https://d10x.co/BingoBlitz/lMvXh)
 
 - [.bingo blitz credits 8.7.2024](https://bingo-app-dsa.playtika.com/bingo2-v2-bingoblitz/incentive/?incentive=0e2aa39286b632038c36e3fe0f74daaeb3a5b19569914c89b09217740365d84c&desktop=fb&scene=popup&asset=inbox.PopupGiftCenter&originId=44769&gameref=FBS_070724&d10x_link_id=psh49UkrvR&af_sub5=d10xlidaf_psh49UkrvR&fbclid=IwZXh0bgNhZW0CMTEAAR3Ki5t6Ua7uNMBMN7sXaA6vpQ6XiDaN5j-xBMj96ay0Ml3zyokmXVlpvNk_aem_0WBjvS4bQyoqz2ElE_L0BQ)
