@@ -1,3 +1,5 @@
+- [4000+free coins 08.7.2024](https://popslots.casino/3zwwGvH)
+
 - [4000+free coins 07.7.2024](https://popslots.casino/4eRbel8)
 
 - [4000+free coins 07.7.2024](https://popslots.casino/4eVyC0E)
