@@ -1,3 +1,9 @@
+- [bingo blitz credits 17.7.2024](https://d10x.co/BingoBlitz/dVlC2)
+
+- [bingo blitz credits 17.7.2024](https://bingo-app-dsa.playtika.com/bingo2-v2-bingoblitz/incentive/?incentive=424d7953cd94ec0bb242a1eb757c5e6f51952861d5ee37a0f8e7d839fc4c9a69&desktop=bingoblitz&scene=popup&asset=inbox.PopupGiftCenter&originId=44826&gameref=IG+160724&d10x_link_id=pshU4snK2j&af_sub5=d10xlidaf_pshU4snK2j&fbclid=PAZXh0bgNhZW0CMTEAAabnO5xkiuzd9nat_cB1GJb178iLmRJ0fNFfRCPzpXBoa2y3KwPAIVe745Q_aem_Cra_4AJSxofUt_zhbmbtWQ)
+
+- [bingo blitz credits 17.7.2024](https://bingo-app-dsa.playtika.com/bingo2-v2-bingoblitz/incentive/?incentive=b8dd70d479573844fd04e135e853e23dfa9dba284374f772df5a6811884bd899&desktop=fb&scene=popup&asset=inbox.PopupGiftCenter&originId=44836&gameref=FBS_160724)
+
 - [bingo blitz credits 16.7.2024](https://d10x.co/BingoBlitz/ibPb9)
 
 - [bingo blitz credits 16.7.2024](https://bingo-app-dsa.playtika.com/bingo2-v2-bingoblitz/incentive/?incentive=238eeb570f654464f88730eedf534779930d830a8eca9bdcda6b8d636fec896a&desktop=fb&scene=popup&asset=inbox.PopupGiftCenter&originId=44803&gameref=FBS_150724)
