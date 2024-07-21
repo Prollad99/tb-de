@@ -1,3 +1,5 @@
+- [collect free rewards 21.7.2024](https://go.matchmasters.io/l/p/freeperks)
+
 - [collect free rewards 20.7.2024](https://go.matchmasters.io/l/p/matchthemup)
 
 - [collect free rewards 20.7.2024](https://go.matchmasters.io/l/p/LuckySpin)
