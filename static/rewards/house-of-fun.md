@@ -1,3 +1,9 @@
+- [150+free coins 22.7.2024](https://playtika.onelink.me/hof/w4blbwsu?af_dp=hof%3A%2F%2F&af_force_deeplink=true&c_id=2024M7D21_23&s_id=1060&deeplink=eyJpZCI6IjMyM2M1Yzc3LTZlOTItNGZmYi05OGMyLWFjNzNmOTRiZjkyMSIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 22.7.2024](https://playtika.onelink.me/hof/w4blbwsu?af_dp=hof%3A%2F%2F&af_force_deeplink=true&c_id=2024M7D21_19&s_id=1060&deeplink=eyJpZCI6ImRjYWYwZTg5LTdmNDktNDk4MC1iMWExLTYxMDUxMDIwYzY2ZCIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 22.7.2024](https://playtika.onelink.me/hof/w4blbwsu?af_dp=hof%3A%2F%2F&af_force_deeplink=true&c_id=2024M7D21_07&s_id=1060&deeplink=eyJpZCI6IjM3NWU2NGY1LTAzNjQtNDdiZS04ZGRmLWRmY2UyYmI0ODU1MiIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
 - [150+free coins 21.7.2024](https://playtika.onelink.me/hof/w4blbwsu?af_dp=hof%3A%2F%2F&af_force_deeplink=true&c_id=2024M7D20_23&s_id=1060&deeplink=eyJpZCI6IjFlODljZDQyLTA5ZDItNGY4MC05ZWRkLTlmOWZlOGJkM2U2MSIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
 
 - [150+free coins 21.7.2024](https://playtika.onelink.me/hof/w4blbwsu?af_dp=hof%3A%2F%2F&af_force_deeplink=true&c_id=2024M7D20_19&s_id=1060&deeplink=eyJpZCI6ImFlODA2ODM1LTYwN2EtNDNlZi05MzE3LTU2MTcyMmU3MmFjNCIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
