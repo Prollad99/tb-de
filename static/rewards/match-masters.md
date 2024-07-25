@@ -1,3 +1,5 @@
+- [collect free rewards 25.7.2024](https://go.matchmasters.io/l/p/zTKuPJxbK_g)
+
 - [collect free rewards 25.7.2024](https://go.matchmasters.io/l/p/cosmicrush)
 
 - [collect free rewards 25.7.2024](https://go.matchmasters.io/l/p/0G5nu1Q9PhQ)
