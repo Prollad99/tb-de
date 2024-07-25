@@ -1,3 +1,5 @@
+- [25 spins link 25.07](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_INSnvNOaU_20240725)
+
 - [25 spins 25.07](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCBBhhVYA_20240725)
 
 - [25 spins 25.07](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_CHATBWwFSGz_20240725)
