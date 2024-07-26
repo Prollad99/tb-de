@@ -1,0 +1,94 @@
+name: Index URLs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - _posts/**
+      - sitemap.xml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2 requests xmltodict
+
+    - name: Fetch and index new URLs from sitemap
+      env:
+        GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+      run: |
+        echo "$GOOGLE_APPLICATION_CREDENTIALS" > credentials.json
+
+        # Fetch sitemap
+        sitemap_url = 'https://tagesbonus.de/sitemap.xml'
+        response = requests.get(sitemap_url)
+        sitemap = xmltodict.parse(response.content)
+
+        # Extract URLs from sitemap
+        urls = [url['loc'] for url in sitemap['urlset']['url']]
+
+        # Read previously indexed URLs
+        try:
+          with open('indexed_urls.txt', 'r') as file:
+              indexed_urls = file.read().splitlines()
+        except FileNotFoundError:
+          indexed_urls = []
+
+        # Determine new URLs to be indexed
+        new_urls = [url for url in urls if url not in indexed_urls]
+
+        if not new_urls:
+            print("No new URLs to index.")
+            exit(0)
+
+        # Google Indexing API setup
+        from google.oauth2 import service_account
+        from googleapiclient.discovery import build
+
+        KEY_FILE_LOCATION = 'credentials.json'
+        SCOPES = ['https://www.googleapis.com/auth/indexing']
+        ENDPOINT = 'https://indexing.googleapis.com/v3/urlNotifications:publish'
+
+        def get_credentials():
+            credentials = service_account.Credentials.from_service_account_file(
+                KEY_FILE_LOCATION, scopes=SCOPES)
+            return credentials
+
+        def index_url(url):
+            credentials = get_credentials()
+            service = build('indexing', 'v3', credentials=credentials)
+            body = {
+                "url": url,
+                "type": "URL_UPDATED"
+            }
+            response = service.urlNotifications().publish(body=body).execute()
+            print(response)
+
+        # Index new URLs
+        for url in new_urls:
+            index_url(url)
+
+        # Update indexed URLs file
+        with open('indexed_urls.txt', 'a') as file:
+            for url in new_urls:
+                file.write(url + '\n')
+
+    - name: Commit indexed URLs file
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add indexed_urls.txt
+        git commit -m 'Update indexed URLs'
+        git push
