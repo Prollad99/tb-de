@@ -22,6 +22,7 @@ jobs:
           - wsop
           - pop-slots
           - house-of-fun
+          - wizard-of-oz
 
     steps:
       - name: Checkout repository
