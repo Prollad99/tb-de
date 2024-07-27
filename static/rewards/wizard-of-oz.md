@@ -1,3 +1,7 @@
+- [4x free credits 28.7.2024](https://zdnwoz0-a.akamaihd.net/live-web/incentive_redirect.html?id=1721677460-0jnczlgo4lif)
+
+- [4x free credits 28.7.2024](https://zynga.social/7iwr)
+
 - [4x free credits 27.7.2024](https://zynga.social/e7e34f)
 
 - [4x free credits 26.7.2024](https://zdnwoz0-a.akamaihd.net/live-web/incentive_redirect.html?id=1721677234-0vm292orduhm)
