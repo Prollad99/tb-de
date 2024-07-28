@@ -1,3 +1,5 @@
+- [collect free rewards 28.7.2024](https://go.matchmasters.io/l/p/07d-qxxMqf4)
+
 - [collect free rewards 27.7.2024](https://go.matchmasters.io/l/p/mNYC7O9JbzI)
 
 - [collect free rewards 27.7.2024](https://go.matchmasters.io/l/p/freespin)
