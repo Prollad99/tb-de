@@ -1,3 +1,17 @@
+- [wsop free chips 02.8.2024](https://wsopga.me/0K38mL)
+
+- [wsop free chips 02.8.2024](https://wsopga.me/eeDLG3)
+
+- [wsop free chips 02.8.2024](https://wsopga.me/2VwdLg)
+
+- [wsop free chips 02.8.2024](https://wsopga.me/V1pA9v)
+
+- [.wsop free chips 02.8.2024](https://wsopga.me/809GXv)
+
+- [wsop free chips 02.8.2024](https://wsopga.me/0K3GvZ)
+
+- [.wsop free chips 02.8.2024](https://wsopga.me/redeem?promoCode=5AA81698-F284-49A7-8AEC-53DC9EB3C23A)
+
 - [.wsop free chips 01.8.2024](https://wsopga.me/redeem?promoCode=580E71B7-8372-4FD1-8D08-E5437B4F8026)
 
 - [.wsop free chips 01.8.2024](https://wsopga.me/redeem?promoCode=B76DD309-1E3A-4909-90DD-BC45B757A3A5)
