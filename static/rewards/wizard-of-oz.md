@@ -1,3 +1,5 @@
+- [4x free credits 7.8.2024](https://zynga.social/96bdcf)
+
 - [4x free credits 6.8.2024](https://zynga.social/b45dff)
 
 - [4x free credits 5.8.2024](https://zynga.social/f2a9bb)
