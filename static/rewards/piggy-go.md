@@ -1,3 +1,7 @@
+- [Free dice link 12.8.2024](https://piggygo-jy.forevernine.com/fanpage?code=ZZANKTVY&channel=1)
+
+- [Free dice link 12.8.2024](https://piggygo-jy.forevernine.com/fanpage?code=ZZANKTVY&channel=4)
+
 - [Free dice link 11.8.2024](https://piggygo-jy.forevernine.com/fanpage?code=KCI03DEF&channel=1)
 
 - [Free dice link 11.8.2024](https://piggygo-jy.forevernine.com/fanpage?code=KCI03DEF&channel=4)
