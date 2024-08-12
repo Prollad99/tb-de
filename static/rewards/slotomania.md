@@ -1,3 +1,13 @@
+- [.2000+free coins 12.8.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1723373841246_0z9zz4k6)
+
+- [2000+free coins 12.8.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1722166585364_5ezjolmy)
+
+- [2000+free coins 12.8.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1723404600147_743erwel)
+
+- [.2000+free coins 12.8.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1722166755266_298gg8oj)
+
+- [2000+free coins 12.8.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1723330800190_ne5dg8mz)
+
 - [2000+free coins 11.8.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1722166225736_ymxgd56z)
 
 - [2000+free coins 11.8.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1722165943593_ne8l98nd)
