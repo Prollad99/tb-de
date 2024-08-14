@@ -1,3 +1,7 @@
+- [bingo blitz credits 15.8.2024](https://d10x.co/BingoBlitz/UvJMG)
+
+- [bingo blitz credits 15.8.2024](https://bingo-app-dsa.playtika.com/bingo2-v2-bingoblitz/incentive/?incentive=fc697c8d3f3db5482a84b6edde9f4f7b2e97ae6ef9d3317555b724281e1d9926&desktop=fb&scene=popup&asset=inbox.PopupGiftCenter&originId=44972&gameref=FBS_140824)
+
 - [bingo blitz credits 14.8.2024](https://d10x.co/BingoBlitz/x5hqB)
 
 - [.bingo blitz credits 14.8.2024](https://d10x.co/BingoBlitz/Izenv)
