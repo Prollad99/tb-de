@@ -1,3 +1,5 @@
+- [30 free dice 15.8.2024](https://mply.io/vPjBNjjTsZA)
+
 - [30 free dice 14.8.2024](https://mply.io/yoIV7iqiK-w)
 
 - [25 free dice 13.8.2024](https://2tdd.adj.st/reward-link/fhgturjh925739?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
