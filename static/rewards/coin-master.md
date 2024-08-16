@@ -1,3 +1,5 @@
+- [10 spins 16.08](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCBqYePzy_20240816)
+
 - [25 spins 16.08](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_INSuNsuEt_20240816)
 
 - [25 spins 16.08](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_CHATBKpMESB_20240816)
