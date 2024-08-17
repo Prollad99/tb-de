@@ -1,3 +1,5 @@
+- [25 free dice 17.8.2024](https://2tdd.adj.st/reward-link/Discord_promotion2?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
+
 - [25 free dice 16.8.2024](https://mply.io/oW2LcJ5kS44)
 
 - [25 free dice 16.8.2024](https://mply.io/EbdhPUcG-2o)
