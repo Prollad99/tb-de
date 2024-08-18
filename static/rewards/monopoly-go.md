@@ -1,3 +1,5 @@
+- [25 free dice 18.8.2024](https://2tdd.adj.st/reward-link/hgdkbg7985333?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
+
 - [30 free dice 18.8.2024](https://2tdd.adj.st/reward-link/gndkth398678?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
 
 - [25 free dice 17.8.2024](https://2tdd.adj.st/reward-link/nmfioth422?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
