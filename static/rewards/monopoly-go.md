@@ -1,3 +1,5 @@
+- [30 free dice 19.8.2024](https://mply.io/idXZaKwrHCY)
+
 - [25 spin link 19.8.2024](https://2tdd.adj.st/reward-link/fjdffii3uy0002?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
 
 - [25 free dice 18.8.2024](https://2tdd.adj.st/reward-link/hgdkbg7985333?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
