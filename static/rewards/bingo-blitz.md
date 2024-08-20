@@ -1,3 +1,5 @@
+- [bingo blitz credits 21.8.2024](https://d10x.co/BingoBlitz/nqdrp)
+
 - [bingo blitz credits 21.8.2024](https://d10x.co/BingoBlitz/UZkqm)
 
 - [bingo blitz credits 20.8.2024](https://d10x.co/BingoBlitz/6LpEI)
