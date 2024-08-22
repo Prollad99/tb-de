@@ -1,3 +1,9 @@
+- [bingo blitz credits 23.8.2024](https://d10x.co/BingoBlitz/3PKh6)
+
+- [bingo blitz credits 23.8.2024](https://d10x.co/BingoBlitz/0c9vD)
+
+- [.bingo blitz credits 23.8.2024](https://d10x.co/BingoBlitz/cJTH1)
+
 - [bingo blitz credits 22.8.2024](https://d10x.co/BingoBlitz/ejirN)
 
 - [bingo blitz credits 22.8.2024](https://d10x.co/BingoBlitz/sHSWU)
