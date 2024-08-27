@@ -1,3 +1,5 @@
+- [collect free rewards 27.8.2024](https://go.matchmasters.io/l/p/nfRHqPZ8uZg)
+
 - [collect free rewards 27.8.2024](https://go.matchmasters.io/l/p/ptQ9N3bZJbQ)
 
 - [collect free rewards 26.8.2024](https://go.matchmasters.io/l/p/emlNSwHDe-Q)
