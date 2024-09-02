@@ -1,3 +1,5 @@
+- [collect free rewards 2.9.2024](https://go.matchmasters.io/l/p/PLsagomgpcc)
+
 - [collect free rewards 1.9.2024](https://go.matchmasters.io/l/p/lxAb3iVHbM4)
 
 - [collect free rewards 1.9.2024](https://go.matchmasters.io/l/p/freeegift)
