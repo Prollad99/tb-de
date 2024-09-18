@@ -1,3 +1,13 @@
+- [10 spins 18.09](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_INSJUXxeA_20240918)
+
+- [25 spin 18.09](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_EMAILQtEwIJ_20240913)
+
+- [25 spins 18.09](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_TWITCnPJu_20240918)
+
+- [25 spins 18.09](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCByZjOcv_20240918)
+
+- [25 spins 18.09](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_CHATBfVeSQJ_20240918)
+
 - [25 spins 18.09](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_LINEjVeNmw_20240917)
 
 - [25 spins 18.09](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_TWIFLoipR_20240917)
