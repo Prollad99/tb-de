@@ -1,3 +1,7 @@
+- [Free dice link 18.9.2024](https://piggygo-jy.forevernine.com/fanpage?code=7PM4C7FP&channel=1)
+
+- [Free dice link 18.9.2024](https://piggygo-jy.forevernine.com/fanpage?code=7PM4C7FP&channel=4)
+
 - [Free dice link 17.9.2024](https://piggygo-jy.forevernine.com/fanpage?code=UHBTU7SC&channel=1)
 
 - [Free dice link 17.9.2024](https://piggygo-jy.forevernine.com/fanpage?code=UHBTU7SC&channel=4)
