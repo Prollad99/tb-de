@@ -1,3 +1,5 @@
+- [collect free rewards 22.9.2024](https://go.matchmasters.io/l/p/MatchNews)
+
 - [collect free rewards 22.9.2024](https://go.matchmasters.io/l/p/VKdPlSvDgvo)
 
 - [collect free rewards 21.9.2024](https://go.matchmasters.io/l/p/cWkRnTPB5qo)
