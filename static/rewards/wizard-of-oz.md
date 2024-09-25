@@ -1,3 +1,5 @@
+- [4x free credits 25.9.2024](https://zynga.social/syao)
+
 - [4x free credits 24.9.2024](https://zynga.social/8z3f)
 
 - [4x free credits 24.9.2024](https://zynga.social/tpsx)
