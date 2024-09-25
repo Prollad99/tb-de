@@ -1,3 +1,5 @@
+- [bingo blitz credits 26.9.2024](https://d10x.co/BingoBlitz/UP6mj)
+
 - [bingo blitz credits 25.9.2024](https://d10x.co/BingoBlitz/0T3rs)
 
 - [bingo blitz credits 25.9.2024](https://d10x.co/BingoBlitz/a4fGV)
