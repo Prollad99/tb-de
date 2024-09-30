@@ -1,3 +1,5 @@
+- [25 free dice 30.9.2024](https://mply.io/yHqxnEwtRmg)
+
 - [25 free dice 29.9.2024](https://mply.io/X9_S_TasqvM)
 
 - [.30 free dice 29.9.2024](https://mply.io/3g53CHMU-vY)
