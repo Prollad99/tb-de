@@ -1,4 +1,6 @@
-- [25 spin 11.10](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCBIBaYWf_20241011)
+- [25 spins 12.10](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_TWIsMkesZ_20241012)
+
+- [25 spin 11.1](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCBIBaYWf_20241011)
 
 - [10 spins 11.10](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_INSciyXig_20241011)
 
