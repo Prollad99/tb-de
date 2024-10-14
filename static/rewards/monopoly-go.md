@@ -1,3 +1,5 @@
+- [25 free dice 14.10.2024](https://2tdd.adj.st/reward-link/vliutnhlau426900?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
+
 - [25 free dice 14.10.2024](https://mply.io/ll-t5rsCdas)
 
 - [25 free dice 13.10.2024](https://2tdd.adj.st/reward-link/sor5i4823ikk?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
