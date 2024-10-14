@@ -1,3 +1,5 @@
+- [25 spins 14.10](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_CHATBOlhSBJ_20241014)
+
 - [25 spins 13.10](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCBRZWsAi_20241013)
 
 - [25 spin 13.10](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_CHATBdFqPdu_20241013)
