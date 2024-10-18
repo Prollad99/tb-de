@@ -1,3 +1,19 @@
+- [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6ImEwMzcyNDQwLTIyYmQtNDI0Yy05YmNmLWQwZjZiNzllYmU2YyIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6ImNhYjU3MWE4LTc0ZTQtNGNiNC04YTRiLTNmYjY0ZmU2YmJlZCIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6ImQ3NzY3YjAzLTFjMDAtNDA5MS04NjNhLTk0NzlmYjI2ZTcwNiIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6ImQwNTBlZTI3LTI4MGUtNDI2ZS1hYWQ0LTU0ZWU0ZWE4M2NlYiIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [.150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6IjA4Mjc4Mzc4LWFkODQtNDRiNy04YTZmLTg0ZmY1NzE4ZWQyZSIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6IjdlMWNmYjBiLTk3NDEtNDdiZC05NzA5LTU3MDE5MWI4YWE1MyIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6IjAyMTRjNDZjLWU5M2MtNGE2Yy1hNTIzLTJhMDVjMWQ3N2UyZCIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
+- [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_force_deeplink=true&deeplink=eyJpZCI6IjNiMzlkZjIzLTRlMmEtNGNmNC1hNzkzLTQ2MzQ0NGM0N2VlMyIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
+
 - [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_dp=hof%3A%2F%2F&af_force_deeplink=true&c_id=2024M10D18_07&s_id=1060&deeplink=eyJpZCI6IjdlMWNmYjBiLTk3NDEtNDdiZC05NzA5LTU3MDE5MWI4YWE1MyIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
 
 - [150+free coins 18.10.2024](https://playtika.onelink.me/hof/w4blbwsu?af_dp=hof%3A%2F%2F&af_force_deeplink=true&c_id=2024M10D17_23&s_id=1060&deeplink=eyJpZCI6ImQwNTBlZTI3LTI4MGUtNDI2ZS1hYWQ0LTU0ZWU0ZWE4M2NlYiIsImFjIjoiaG9mX2dpZnRfY291cG9uIn0=)
