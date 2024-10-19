@@ -1,3 +1,9 @@
+- [bingo blitz credits 20.10.2024](https://d10x.co/BingoBlitz/bFqIV)
+
+- [bingo blitz credits 20.10.2024](https://d10x.co/BingoBlitz/FOlgl)
+
+- [bingo blitz credits 20.10.2024](https://d10x.co/BingoBlitz/KFsp8)
+
 - [bingo blitz credits 19.10.2024](https://d10x.co/BingoBlitz/WJlOJ)
 
 - [bingo blitz credits 19.10.2024](https://bingo-app-dsa.playtika.com/bingo2-v2-bingoblitz/incentive/?incentive=805ef73824d71bf50caccace03533a269d3ad5ad80a282853f22ce801df1cb63&desktop=fb&scene=popup&asset=inbox.PopupGiftCenter&originId=45316&gameref=FBS_181024)
