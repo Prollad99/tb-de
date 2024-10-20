@@ -1,3 +1,5 @@
+- [collect free rewards 20.10.2024](https://go.matchmasters.io/l/p/5r-TKQ3Qiec)
+
 - [collect free rewards 19.10.2024](https://go.matchmasters.io/l/p/GM7LX8oiIak)
 
 - [collect free rewards 19.10.2024](https://go.matchmasters.io/l/p/luckyspin)
