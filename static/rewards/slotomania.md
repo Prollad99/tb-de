@@ -1,3 +1,13 @@
+- [6000+free coins 28.10.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1729424518807_29x4z698)
+
+- [6000+free coins 28.10.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1729425108170_owzj3ng3)
+
+- [6000+free coins 28.10.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1730057400121_w7og47dg)
+
+- [6000+free coins 28.10.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1729416019028_owzjxeg8)
+
+- [6000+free coins 28.10.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1729416080884_2pgx3k96)
+
 - [6000+free coins 26.10.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1729884600117_owe40939)
 
 - [6000+free coins 26.10.2024](https://api.playtika.com/redirector/?coupon_token=1_3_1728996764188_8g29n6r8)
