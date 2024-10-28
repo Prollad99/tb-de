@@ -1,3 +1,5 @@
+- [4x free credits 28.10.2024](https://zynga.social/ilk9)
+
 - [4x free credits 28.10.2024](https://zynga.social/kqdl)
 
 - [4x free credits 27.10.2024](https://zynga.social/dbst)
