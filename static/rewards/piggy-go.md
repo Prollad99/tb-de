@@ -1,3 +1,7 @@
+- [Free dice link 29.10.2024](https://piggygo-jy.forevernine.com/fanpage?code=FZHJAROD&channel=1)
+
+- [Free dice link 29.10.2024](https://piggygo-jy.forevernine.com/fanpage?code=FZHJAROD&channel=4)
+
 - [Free dice link 28.10.2024](https://piggygo-jy.forevernine.com/fanpage?code=YWYQ1JX9&channel=1)
 
 - [Free dice link 28.10.2024](https://piggygo-jy.forevernine.com/fanpage?code=YWYQ1JX9&channel=4)
