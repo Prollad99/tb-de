@@ -1,3 +1,5 @@
+- [.666+free coins 29.10.2024](https://popslots.casino/4eOIide)
+
 - [.666+free coins 28.10.2024](https://popslots.casino/3Y7KHZb)
 
 - [666+free coins 28.10.2024](https://popslots.casino/4eOMzNB)
