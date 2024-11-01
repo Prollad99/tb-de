@@ -1,3 +1,5 @@
+- [collect free rewards 1.11.2024](https://go.matchmasters.io/l/p/Qx8g3A6mmDM)
+
 - [collect free rewards 31.10.2024](https://go.matchmasters.io/l/p/GRABASTICKER)
 
 - [collect free rewards 31.10.2024](https://go.matchmasters.io/l/p/HappyHalloween1)
