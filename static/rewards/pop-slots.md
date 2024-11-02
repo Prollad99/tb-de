@@ -1,3 +1,5 @@
+- [666+free coins 02.11.2024](https://popslots.casino/3BLeKOP)
+
 - [666+free coins 01.11.2024](https://popslots.casino/4eFRKQ3)
 
 - [666+free coins 01.11.2024](https://popslots.casino/3Y0KkzA)
