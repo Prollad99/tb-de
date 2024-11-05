@@ -1,3 +1,5 @@
+- [30 free dice 5.11.2024](https://mply.io/cV3GcEvvOyg)
+
 - [25 free dice 5.11.2024](https://mply.io/hLtt0A)
 
 - [25 free dice 4.11.2024](https://2tdd.adj.st/reward-link/bvieutnJJK20089?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
