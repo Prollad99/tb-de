@@ -1,3 +1,5 @@
+- [30 free dice 7.11.2024](https://2tdd.adj.st/reward-link/tyjiIYe2o98?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
+
 - [30 free dice 6.11.2024](https://2tdd.adj.st/reward-link/gjteotG32jjf?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
 
 - [30 free dice 5.11.2024](https://2tdd.adj.st/reward-link/fjjriGAekgmJubilee558?adjust_t=i2f8o2i_4btbvwg&adjust_deeplink_js=1)
