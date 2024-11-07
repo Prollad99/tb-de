@@ -1,3 +1,9 @@
+- [60 spins link 07.11](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_RICHybyGWL_20241014)
+
+- [25 spin 07.11](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_EMAILOIqRxc_20241102)
+
+- [25 spins 07.11](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_INSFCRklf_20241107)
+
 - [10 spins 07.11](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_FCBZjIuMC_20241107)
 
 - [25 spins 07.11](https://rewards.coinmaster.com/rewards/rewards.html?c=pe_CHATBOHIJhZ_20241107)
