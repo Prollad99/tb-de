@@ -1,3 +1,5 @@
+- [bingo blitz credits 9.11.2024](https://d10x.co/BingoBlitz/mBMn2)
+
 - [bingo blitz credits 8.11.2024](https://d10x.co/BingoBlitz/0AvbF)
 
 - [bingo blitz credits 8.11.2024](https://d10x.co/BingoBlitz/Hbsfi)
