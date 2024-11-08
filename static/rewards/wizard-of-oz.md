@@ -1,3 +1,5 @@
+- [4x free credits 8.11.2024](https://zynga.social/c0i3)
+
 - [4x free credits 7.11.2024](https://zdnwoz0-a.akamaihd.net/live-web/incentive_redirect.html?id=1692979846)
 
 - [4x free credits 7.11.2024](https://zdnwoz0-a.akamaihd.net/live-web/incentive_redirect.html?id=1730828508-0wruya8tzsgp)
